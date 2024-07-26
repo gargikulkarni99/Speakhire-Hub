@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes, FaGlobe, FaCaretDown } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
-import "../Styles/main.css";
+import "../main.css";
 import Logo from "../Components/Logo.png";
 import Counter from "../Components/Counter";
 import Meeting from "../Components/Meeting.jpg";
