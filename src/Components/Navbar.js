@@ -11,7 +11,7 @@ import Dayra from "../Components/Dayra.jpg";
 import Ecstacy from "../Components/Ecstacy.png";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+export const Navbar = () => {
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -43,7 +43,7 @@ const Navbar = () => {
             <div className="dropdown-menu">
               <a href="/#partner-schools-and-orgs">Partner Schools and Orgs</a>
               <Link to="/champions">Champions</Link>
-              <Link to="/interns">Intern</Link>
+              <Link to="/intern">Intern</Link>
               <a href="/#careers">Careers</a>
               <a href="/#volunteer">Volunteer</a>
             </div>
@@ -171,7 +171,6 @@ const Navbar = () => {
         </div>
       </section>
     </>
-  );
+  )
 }
 
-export default Navbar;
