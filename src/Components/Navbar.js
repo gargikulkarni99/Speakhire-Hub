@@ -43,7 +43,7 @@ const Navbar = () => {
             <div className="dropdown-menu">
               <a href="/#partner-schools-and-orgs">Partner Schools and Orgs</a>
               <Link to="/champions">Champions</Link>
-              <Link to="/interns">Interns</Link>
+              <Link to="/interns">Intern</Link>
               <a href="/#careers">Careers</a>
               <a href="/#volunteer">Volunteer</a>
             </div>

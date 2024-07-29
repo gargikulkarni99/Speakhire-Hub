@@ -3,7 +3,6 @@ import { FaBars, FaTimes, FaGlobe, FaCaretDown } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
 import Logo from "../Components/Logo.png";
 import "../Styles/Champions.css";
-import "../Components/Navbar";
 
 function Champions() {
 	const navRef = useRef();
