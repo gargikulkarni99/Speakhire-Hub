@@ -10,7 +10,7 @@ import Afrida from "../Components/Afrida.jpg";
 import Dayra from "../Components/Dayra.jpg";
 import Ecstacy from "../Components/Ecstacy.png";
 import { Link } from "react-router-dom";
-import Background from "../Styles/bg.png";
+
 
 const Navbar = () => {
   const navRef = useRef();
