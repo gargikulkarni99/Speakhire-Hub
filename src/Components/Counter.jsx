@@ -21,7 +21,7 @@ const Counter = ({ end }) => {
 		updateCount();
 	}, [end]);
 
-	return <h3>{count}+</h3>;
+	return <h3>{count}</h3>;
 };
 
 Counter.propTypes = {

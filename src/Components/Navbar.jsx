@@ -2,7 +2,7 @@ import { useRef } from "react";
 import React from "react";
 import { FaBars, FaTimes, FaGlobe, FaCaretDown } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
-import "../main.css";
+import "../Styles/main.css";
 import Logo from "../Components/Logo.png";
 import Counter from "../Components/Counter";
 import Meeting from "../Components/Meeting.jpg";
@@ -10,8 +10,9 @@ import Afrida from "../Components/Afrida.jpg";
 import Dayra from "../Components/Dayra.jpg";
 import Ecstacy from "../Components/Ecstacy.png";
 import { Link } from "react-router-dom";
+import Background from "../Styles/bg.png";
 
-export const Navbar = () => {
+const Navbar = () => {
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -42,8 +43,8 @@ export const Navbar = () => {
             <a href="/#get-involved">Get Involved</a>
             <div className="dropdown-menu">
               <a href="/#partner-schools-and-orgs">Partner Schools and Orgs</a>
-              <Link to="/champions">Champions</Link>
               <Link to="/intern">Intern</Link>
+              <Link to="/champions">Champions</Link>
               <a href="/#careers">Careers</a>
               <a href="/#volunteer">Volunteer</a>
             </div>
@@ -171,6 +172,8 @@ export const Navbar = () => {
         </div>
       </section>
     </>
-  )
+  );
 }
+
+export default Navbar;
 

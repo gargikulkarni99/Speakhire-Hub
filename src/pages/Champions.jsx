@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGlobe, FaCaretDown } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
 import Logo from "../Components/Logo.png";
 import "../Styles/Champions.css";
+import { Link } from "react-router-dom";
 
 function Champions() {
 	const navRef = useRef();
@@ -35,8 +36,8 @@ function Champions() {
 						<a href="/#get-involved">Get Involved</a>
 						<div className="dropdown-menu">
 							<a href="/#partner-schools-and-orgs">Partner Schools and Orgs</a>
-							<a href="/#champions">Champions</a>
-							<a href="/#interns">Interns</a>
+							<Link to="/intern">Intern</Link>
+              				<Link to="/champions">Champions</Link>
 							<a href="/#careers">Careers</a>
 							<a href="/#volunteer">Volunteer</a>
 						</div>
