@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes, FaGlobe, FaCaretDown } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
-import Logo from "../Components/Logo.png";
+import Logo from "../assets/Logo.png";
 import "../Styles/Champions.css";
 import { Link } from "react-router-dom";
 
