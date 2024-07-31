@@ -1,0 +1,103 @@
+/* ContactMe.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: 40% 60%; /* Set widths for contact info and form */
+    gap: 20px; /* Space between columns */
+    padding: 20px;
+    max-width: 1200px; /* Optional: Max width for larger screens */
+    margin: 150px auto; /* Center the container */
+    
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #007b98;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Stack form fields vertically */
+    justify-content: center; /* Center form fields on Y-axis */
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.inline-fields {
+    display: flex; /* Use flexbox for inline fields */
+    gap: 20px; /* Space between the fields */
+}
+
+.field-container {
+    flex: 1; /* Make both fields take equal space */
+}
+
+.field-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.field-container input,
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cbd5e0; /* Light gray border */
+    border-radius: 4px;
+}
+.submit-button {
+    width: 40%;
+    padding: 0.5rem;
+    background-color: #08547a; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-size: 16px; /* Set font size */
+    line-height: normal; /* Set line height */
+    text-align: center; /* Center align text */
+    letter-spacing: 0.32px; /* Set letter spacing */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.submit-button:hover {
+    background-color: #2b6cb0; /* Darker blue on hover */
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr; /* Stack columns on small screens */
+    }
+    .contact-info {
+        text-align: center;
+    }
+    
+    .inline-fields {
+        flex-direction: column; /* Stack fields on small screens */
+    }
+}
+

@@ -3,12 +3,12 @@ import React from "react";
 import { FaBars, FaTimes, FaGlobe, FaCaretDown } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
 import "../Styles/main.css";
-import Logo from "../Components/Logo.png";
+import Logo from "../assets/Logo.png";
 import Counter from "../Components/Counter";
-import Meeting from "../Components/Meeting.jpg";
-import Afrida from "../Components/Afrida.jpg";
-import Dayra from "../Components/Dayra.jpg";
-import Ecstacy from "../Components/Ecstacy.png";
+import Meeting from "../assets/Meeting.jpg";
+import Afrida from "../assets/Afrida.jpg";
+import Dayra from "../assets/Dayra.jpg";
+import Ecstacy from "../assets/Ecstacy.png";
 import { Link } from "react-router-dom";
 
 
