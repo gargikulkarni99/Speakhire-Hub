@@ -1,23 +1,23 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar';
-import Intern from './pages/Intern';
-import Champions from './pages/Champions';
-import Contact from './pages/Contact'; 
-import "./Styles/main.css";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavBar from './Components/Navbar/NavBar'; 
+import Team from './pages/Team/Team'; 
+import Home from './Components/Hero/Home'; 
+import Contact from './Components/Contact/ContactMe'; 
+import NewsPage from './pages/News/NewsPage'; 
 
-export default function App() {
+const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route index element={<Intern />} /> 
-          <Route path="/intern" element={<Intern />} />
-          <Route path="/champions" element={<Champions />} />
-          <Route path="/contact" element={<Contact />} /> 
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <Router>
+      <NavBar /> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/team" element={<Team />} /> 
+        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/news" element={<NewsPage />} /> 
+      </Routes>
+    </Router>
   );
 }
+
+export default App;

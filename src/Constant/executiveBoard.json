@@ -1,0 +1,131 @@
+{
+    "executiveBoard": [
+      {
+        "id": 1,
+        "image": "/src/assets/TeamAssets/Hetal_files/Hetal.jpg",
+        "name": "Hetal Jani",
+        "role": "Founder and Executive Director",
+        "description": "When I was younger, I thought I was going to grow up to be a doctor. But, when I got into high school, I realized I was no longer sure of my path since I enjoyed a variety of subjects. Blending my natural talents and interests led to a career in education, addressing inequities and increasing opportunities. My calling is to enable people to learn how to access and activate knowledge, identify opportunities, and develop skills and connections to pursue those opportunities. This is why I started SPEAKHIRE. I discovered my path was to empower others to find theirs."
+      },
+      {
+        "id": 2,
+        "image": "/src/assets/TeamAssets/Hetal_files/mana.jpeg",
+        "name": "Madhumitha Sowndararajan",
+        "role": "Executive Board Chair",
+        "description": "Madhu Sowndararajan brings over 10+ years of experience in HR, leading the global HR strategy for Technology teams. She is very passionate about enabling teams and organizations to make meaningful and impactful decisions, with a huge part of this being around coaching managers and leaders to think bias-free through data. Outside of her work, she is passionate about immigrant and gender rights. She actively volunteers as an Economic Empowerment Coach for Maitri, a Bay area based DV agency. In this role, she offers career coaching services for women affected by Domestic Violence. When she is not working or volunteering, she spends her time playing her musical instrument called 'Jaltarang', an instrument played with water and porcelain bowls (see her Youtube channel here - https://www.youtube.com/channel/UCIXGuIHHWlfUsQwX5_I0Esw) . She currently works as a Talent Partner at Airbnb."
+      },
+      {
+        "id": 3,
+        "image": "/src/assets/TeamAssets/Hetal_files/Kiran.jpg",
+        "name": "Kiran Jani",
+        "role": "Executive Board Vice President",
+        "description": "As immigrants who came to America in the late 1970’s, I and my wife faced many challenges. The supportive community we had made the transition into a new country and integrating into the local way of life much easier. Raising children between two cultures can always be challenging, but it was important to us that we instill our ancestral culture and language in our children. The issues that children of immigrants and first-generation children struggle with around identity on top of the lesser resources and knowledge about the education system immigrant parents can provide them serve as limitations in their careers. Many immigrants live in cultural communities but our children grow up in between cultural communities; we must learn to properly support their particular needs and provide them with as many resources as possible. Mentors who have already been successful in their journey can accelerate the success of our children while we continue to help them as much as possible along the way. I’m working with my daughter to support her in this journey in the best way that I can."
+      },
+      {
+        "id": 4,
+        "image": "/src/assets/TeamAssets/Hetal_files/Prasanna .jpg",
+        "name": "Prasanna Vijayanathan",
+        "role": "Executive Board Secretary",
+        "description": "Prasanna Vijayanathan is a Software Engineering Leader with over 10 years of experience leading tech initiatives and managing teams at organizations like Netflix and LinkedIn.  Creating equity in education and economic opportunities are two causes he is most passionate about. He has been a volunteer and mentor in different initiatives like REACH, Women In Tech and WEST (Women Entering and Staying in Tech). Prasanna is thrilled to join the board of SPEAKHIRE and drive its commitment to empower the leaders of tomorrow through better social and economic opportunities."
+      },
+      {
+        "id": 5,
+        "image": "/src/assets/TeamAssets/Hetal_files/Annie.jpg",
+        "name": "Annie Camey Kuo",
+        "role": "Executive Board Member",
+        "description": "Dr. Annie Camey Kuo is the Director of Research-Practice Partnerships at Understanding Language at the Stanford Graduate School of Education. Her work and research focus on helping school districts, states, and organizations build systems of support for multilingual learners including immigrant students and students designated as English learners. As a 1.5 generation immigrant, Annie has first hand knowledge of the range of challenges and barriers that come with navigating a new environment, culture, and language. She started her teaching career in bilingual programs in the Lower East Side and has worked with educators in cities around the country and abroad. Annie is thrilled to join the board of SPEAKHIRE to promote our commitment to developing and empowering young adults, especially young women of color, with the knowledge and resources to thrive and reach their potential. "
+      },
+      {
+        "id": 6,
+        "image": "/src/assets/TeamAssets/Hetal_files/Gary.jpg",
+        "name": "Gary Blinth",
+        "role": "Executive Board Member",
+        "description": "As an immigrant who struggled with being understood both phonetically and culturally it took me a while to really get into the right professional networks and get my career going. Looking back, I wish I had access to organizations such as Speakhire. Speakhire will provide me the opportunity to give back and work with others who might be experiencing some of the same challenges that I did. A little bit about me, I currently lead Executive Search at Humana. Prior to Humana, I led recruiting in companies such WestRock and Morgan Stanley. With a passion for D&I I have implemented strategies that addressed diversity gaps in various companies that I have worked at. I have also been involved in various community organizations that are geared towards serving the “underserved"
+      },
+      {
+        "id": 7,
+        "image": "/src/assets/TeamAssets/Hetal_files/Rithika.jpg",
+        "name": "Rithika Naik",
+        "role": "Executive Board Member",
+        "description": "Meet Rithika Naik, a seasoned marketer and natural-born leader with extensive expertise in HCP, Consumer, and Patient marketing. Holding a bachelor’s degree in Marketing and an MBA in Finance from Seton Hall University, Rithika is armed with a strategic mindset and an entrepreneurial spirit. As an accomplished professional, Rithika prioritizes business growth through data-driven strategies in dynamic environments, emphasizing meticulous planning and execution for meaningful impact. Notably, as an immigrant student herself, her exemplary passion for helping and guiding students has shone through her role as a champion since 2019 making her an ideal candidate for the SPEAKHIRE board. Beyond the marketing realm, Rithika finds solace in the zen world of yoga and meditation, leads hikes, explores global destinations, indulges in non-fiction reads, mentors high school students, and masters NY style salsa and urban bachata. Stay tuned for the exciting ventures ahead!"
+      },
+      {
+        "id": 8,
+        "image": "/src/assets/TeamAssets/Hetal_files/Ed.jpg",
+        "name": "Ed Liu",
+        "role": "Advisory Board Member ",
+        "description": "Edward Liu has been an educator and school leader for over 20 years, working in some of the most challenging high schools in Yonkers and in the Bronx. This included serving 10 + years at two all immigrant (ESL) high schools, first at Bronx International and then at Ellis Preparatory Academy. He has a passion for proving that students, regardless of their socio-economic background or where they came from, can achieve and excel academically. Mr. Liu always had a passion for studying and utilizing success and spiritual principles to impact the schools and students he served. Recently, he realized his goal of publishing his own personal and spiritual development book called The More We Become.  "
+      },
+      {
+        "id": 9,
+        "image": "/src/assets/TeamAssets/Hetal_files/Benazir.jpeg",
+        "name": "Benazir Fateh",
+        "role": "Advisory Board Member",
+        "description": "Benazir brings over 11 years of experience in software development and data science. In her current role as a ML Specialist at Google, she helps companies architect large scale machine learning systems. Benazir is passionate about helping young adults get interested in and pursue a career in STEM. In her own words: “I am passionate about helping teenagers and young people get more interested in STEM careers. When I was a teenager myself and even throughout my undergraduate studies in India, I always wondered what doing a full time job in Computer engineering felt like and what are the soft skills required to excel in one's career. So at this point in my career, I am very happy to mentor kids and teenagers and help them develop the required soft skills and growth mindset that helps us in career and in life!”"
+      },
+      {
+        "id": 10,
+        "image": "/src/assets/TeamAssets/Hetal_files/Jonathan.jpg",
+        "name": "Jonathan Pinque",
+        "role": "Advisory Board Member",
+        "description": "My name is Jonathan Pinque, and work at New York Presbyterian - Weill Cornell & Lower Manhattan Hospital as a Patient Navigator Program Manager. I am also a community advocate at heart, and am joining SPEAKHIRE's mission as a firm believer in cultivating change, growth, and innovation from the ground up.  Our youth here in NYC, and across the United States, are yearning for strong mentors who hold the keys to access important career blueprints, and to learn the necessary skills that can catalyze their path towards success. Personally and professionally, I have traveled across the globe, working within communities of all backgrounds and these experiences have shaped my leadership style, my approach to civic engagement, and cemented my commitment to making a difference in the life of others.  "
+      },
+      {
+        "id": 11,
+        "image": "/src/assets/TeamAssets/Hetal_files/Francesca.jpg",
+        "name": "Francesca Gonzalez",
+        "role": "Lead Programs Coordinator",
+        "description": "As an educator and with experience of coming from an Immigrant family I have had the privilege of learning different languages and adapting to different cultures. Thus, giving me the flexibility to work with different age groups and perspectives which resulted in finding passion in the importance it is to have a leader whom students can connect to and feel comfortable with. It is rewarding to see how education has the ability to open minds and doors; something I found in SPEAKHIRE. I am eager to share my knowledge and experience in education to help transform and empower students to become our leaders of tomorrow"
+      },
+      {
+        "id": 12,
+        "image": "/src/assets/TeamAssets/Hetal_files/WW.jpg",
+        "name": "Wenqi Wang",
+        "role": "Champions Relations Associate",
+        "description": "As an international student, I intimately understand the challenges immigrant students face. SPEAKHIRE's mission resonates deeply with my personal experiences. I'm motivated by the satisfaction of cracking on tasks efficiently and seeing tangible results from my efforts. Every completed task fuels my drive to take on the next challenge. At SPEAKHIRE, I’m excited to develop programs that equip immigrant students with essential soft skills and networking opportunities, to further maximize their potential in their new environment."
+      },
+      {
+        "id": 13,
+        "image": "/src/assets/TeamAssets/Hetal_files/Kendi.jpg",
+        "name": "Kendi Wang",
+        "role": "Program Administrator",
+        "description": "SPEAKHIRE’s mission resonates with me because I grew up in an immigrant family and I have many relatives and friends who are also immigrants. I’ve seen firsthand their struggles of adjusting to life in the United States, especially my cousins who are around my age. SPEAKHIRE helps people like them connect to the community around and provides guidance for their future. I believe it’s an invaluable program that helps disadvantaged students define their path and develop their skills, and I wish to help SPEAKHIRE expand its impact. I was very fortunate to have met many amazing mentors from my experiences and I hope others who deserve a better chance will have these opportunities and support as well. I am glad to be part of the SPEAKHIRE team and I hope to assist the program so that I can help more students pursue their dreams and see themselves as leaders in the future!"
+      },
+      {
+        "id": 14,
+        "image": "/src/assets/TeamAssets/Hetal_files/Rushi.jpg",
+        "name": "Sai Eshwar Rushideep Kotamraju",
+        "role": "Tech Associate",
+        "description": "Currently working as a Tech Associate at SpeakHire, my role has been instrumental in my growth as a software developer. The work I engage in here is not just professionally fulfilling, but also transformative. At SpeakHire, I am exposed to a diverse range of projects and technologies, each offering unique challenges and learning opportunities. This experience has honed my technical skills, problem-solving abilities, and adaptability in a fast-paced, innovative environment. My position allows me to contribute significantly to the development and enhancement of impactful software solutions, further solidifying my commitment and passion for the field of software development. My journey at SpeakHire is a critical chapter in my ongoing pursuit of excellence and innovation in technology."
+      },
+      {
+        "id": 15,
+        "image": "/src/assets/TeamAssets/Hetal_files/Sakshi+Patil.jpg",
+        "name": "Sakshi Patil",
+        "role": "Tech Associate",
+        "description": "As a former international student, I deeply resonate with the mission of SPEAKHIRE. Having firsthand experience with the challenges of adapting to a new country and forging a career in an unfamiliar environment, I firmly believe in providing every individual with the opportunity to discover their voice and pursue their passions, as I have been fortunate enough to do in the tech industry. I am eager to mentor and inspire others who may be facing similar struggles in navigating life in a new land, reflecting on my own journey and values. My aim for SPEAKHIRE is to play a pivotal role in crafting a highly user-friendly career counseling platform that advances the organization's mission, while also contributing to its broader impact in any way I can."
+      },
+      {
+        "id": 16,
+        "image": "/src/assets/TeamAssets/Hetal_files/Britney.png",
+        "name": "Britney Huynh",
+        "role": "Communications Associate",
+        "description": "As a second-generation immigrant and first-generation college student, I often think about how my parents — particularly my dad — went straight to the workforce right after settling in the States. While his younger siblings were able to attend college and go on to have sustainable, successful careers, he never received the education, support, guidance, and long-term growth that young immigrants like him should have been provided. My parents have inspired me to constantly strive for excellence, to persist in all of my endeavors, and to create paths when there seem to be none. As I am completing my bachelor’s degree in Marketing, I aim to not only have a successful career in the field, but to also leave a positive impact on my community. I am elated to join SPEAKHIRE and help the mission progress by ensuring that Tomorrow’s Leaders have the equitable resources, opportunities, and support needed to thrive."
+      },
+      {
+        "id": 17,
+        "image": "/src/assets/TeamAssets/Hetal_files/Anisa.jpg",
+        "name": "Anisa Gao",
+        "role": "Communications Associate",
+        "description": "I am a second generation immigrant and an immigrant myself from Canada. SPEAKHIRE helps people like me gain leadership skills and connections to important resources. Working at SPEAKHIRE gives me the experience I need to succeed in my future career path and shows me the positive impact I can help make on students like me"
+      },
+      {
+        "id": 18,
+        "image": "/src/assets/TeamAssets/Hetal_files/Stephanie.jpg",
+        "name": "Stephanie Chen ",
+        "role": "Communications Associate",
+        "description": "My parents were immigrants from China, and as I was growing up, I could feel a clear divide between me and my American friends. I will be the first in my immediate family to go to college, and it’s a very new path for us. Thankfully, I have a lot of support from my school and also peers, and I hope other immigrants and people of color have a support group as well, which is why I think SPEAKHIRE’s mission is so inspirational and important. I hope that the work that I do will help a fellow student out!"
+      }
+    ]
+  }
+  

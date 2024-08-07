@@ -1,0 +1,89 @@
+import React from 'react';
+import executiveBoard from '/src/Constant/executiveBoard.json';
+import juniorBoard from '/src/Constant/juniorBoard.json'; // Import the junior board data
+import { motion } from 'framer-motion';
+import "./Team.css";
+
+const Team = () => {
+  return (
+    <div className='container'>
+      <motion.div
+        className='speakhire-team'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        Speakhire Team
+      </motion.div>
+      <motion.div
+        className='team-container'
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+      ><motion.div
+      className='junior-board-title'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
+      Executive Board Members
+    </motion.div>
+        {/* Executive Board Members */}
+        {executiveBoard.executiveBoard.map((member) => (
+          <motion.div
+            className='sub-team'
+            key={member.id}
+            transition={{ type: 'spring', stiffness: 300 }}
+          >
+            <div className='member-content'>
+              <div className='member-image'>
+                <img src={member.image} alt={`${member.name}'s profile`} />
+              </div>
+              <div className='member-details'>
+                <h2>{member.name}</h2>
+                <h3>{member.role}</h3>
+                <p>{member.description}</p>
+              </div>
+            </div>
+          </motion.div>
+        ))}
+
+        {/* Junior Board Members */}
+        <motion.div
+          className='junior-board-title'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          Junior Board Members
+        </motion.div>
+
+        {juniorBoard.juniorBoard.map((member) => (
+          <motion.div
+            className='sub-team'
+            key={member.id}
+            transition={{ type: 'spring', stiffness: 300 }}
+          >
+            <div className='member-content'>
+              <div className='member-image'>
+                {member.image ? (
+                  <img src={member.image} alt={`${member.name}'s profile`} />
+                ) : (
+                  <div className='placeholder-image'>No Image Available</div>
+                )}
+              </div>
+              <div className='member-details'>
+                <h2>{member.name}</h2>
+                <h3>{member.role}</h3>
+                <p>{member.description || 'No description available.'}</p>
+              </div>
+            </div>
+          </motion.div>
+        ))}
+      </motion.div>
+    </div>
+  );
+};
+
+export default Team;
+

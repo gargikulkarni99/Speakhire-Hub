@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.NavLinks {
+    display: flex;
+    align-items: center; 
+}
+
+.NavLinks ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    height: 100%; 
+}
+
+.NavLinks ul li {
+    position: relative;
+}
+
+.NavLinks ul li a {
+    text-decoration: none;
+    font-weight: 300; 
+    color: #08547a;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.NavLinks ul .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+}
+
+.NavLinks ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li a {
+    display: block;
+    font-size: 14px !important;
+    font-weight: 300; 
+}
+
+.dropdown li a:hover {
+    background: #f0f0f0;
+}
+
+.logo {
+    width: 180px;
+    height: 100px;
+}
+
+.HamburgerMenu {
+    cursor: pointer;
+    margin-left: auto; 
+}
+
+.donate-button {
+    background-color: #fcfc79;
+    color: #000000;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 400; 
+    align-self: center; 
+    border-radius: 5px;
+}
+
+.donate-button:hover {
+    background-color: #cc0000;
+}
+
+.MobileNavigation {
+    display: none;
+}
+
+.icon {
+    font-size: 54px !important;  
+    margin: 0 10px; 
+}
+
+@media (max-width: 600px) {
+    .DesktopNavigation {
+        display: none;
+    }
+
+    .MobileNavigation {
+        display: flex;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .NavLinks ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        position: absolute;
+        top: 15vh;
+        right: 0;
+        height: 50vh;
+        width: 100%;
+        background: #f7f7f7; 
+        text-align: center;
+        padding: 0; 
+    }
+
+    .NavLinks ul .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #f7f7f7; 
+        border: 1px solid #ccc; 
+        z-index: 1;
+    }
+
+    .NavLinks ul li {
+        padding: 10px 0; 
+    }
+
+    .NavLinks ul .dropdown {
+        position: static;
+        border: none;
+        width: 100%; 
+    }
+
+    .NavLinks ul li a {
+        padding: 15px 0; 
+    }
+
+    .NavLinks ul li a,
+    .donate-button {
+        display: inline-block; 
+        padding: 10px 20px; 
+    }
+
+    .dropdown li a {
+        padding: 10px 20px; 
+    }
+}
