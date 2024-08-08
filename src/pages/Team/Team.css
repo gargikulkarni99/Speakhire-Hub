@@ -1,37 +1,51 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto; 
-    padding: 20px;
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in width/height */
 }
 
-.container .speakhire-team {
+body {
+    margin: 0; /* Reset default body margin */
+}
+
+.container {
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding for the container */
+}
+
+.speakhire-team {
     text-align: center;
-    font-size: 2rem; 
+    font-size: 2rem;
     font-weight: bold;
-    margin: 0; 
-    padding: 20px 0; 
-    background-color: #007b98; 
-    color: white; 
-    position: relative; 
-    width: 100vw; 
-    left: 50%; 
-    transform: translateX(-50%);
+    margin: 0;
+    padding: 20px 0;
+    background-color: #007b98;
+    color: white;
+    width: 100%; /* Full width */
 }
 
 .team-container {
-    display: flex; 
-    flex-direction: column; 
-    align-items: stretch;
+    padding: 20px;
+}
+
+.junior-board-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
 }
 
 .sub-team {
-    width: 100%; 
-    margin: 15px 0; 
-    background-color: #f8f8f8; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+    background-color: #f8f8f8;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 0.2s;
+    padding: 20px;
+    width: 100%; /* Ensure full width of the sub-team */
 }
 
 .sub-team:hover {
@@ -39,28 +53,26 @@
 }
 
 .member-content {
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
-    padding: 10px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
 }
 
 .member-image {
-    flex: 0 0 200px; 
-    padding-right: 15px; 
+    flex: 0 0 150px;
+    margin-right: 20px;
 }
 
 .member-image img {
     width: 100%;
     height: auto;
-    max-height: 150px;
-    object-fit: cover; 
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .member-details {
     flex: 1;
-    text-align: left; 
+    text-align: left;
 }
 
 .member-details h2 {
@@ -69,83 +81,48 @@
 }
 
 .member-details h3 {
-    font-size: 1.2rem; 
-    color: #666; 
-    margin: 5px 0; 
+    font-size: 1.2rem;
+    color: #007b98;
+    font-style: italic;
+    margin: 5px 0;
 }
 
 .member-details p {
-    font-size: 0.9rem; 
-    color: #333; 
-    margin: 10px 0 0; 
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0 0;
+}
+
+.linkedin-link {
+    color: #007b98;
+    margin: 20px 0 !important; 
+    cursor: pointer;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .sub-team {
-        width: 100%; 
-        margin: 15px 0; 
-    }
-
     .member-content {
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
 
     .member-image {
-        padding-right: 0; 
-        margin-bottom: 10px; 
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     .member-image img {
         width: 100%;
-        max-height: none; 
     }
 }
-.speakhire-team {
-    background-color: #f0f0f0; 
-    text-align: center; 
-    padding: 20px 0; 
-    font-size: 24px; 
-  }
-  
-  .team-container {
-    padding: 20px; 
-  }
-  
-  h2 {
-    font-size: 40px;
-    margin: 0; 
-  }
-  
-  .junior-board-title {
-    font-size: 32px; 
-    font-weight: bold; 
-    margin: 20px 0; 
-  }
-  
-  .member-content {
-    display: flex; 
-    margin: 20px 0; 
-  }
-  
-  .member-image img {
-    width: 200px; 
-    height: 150px; 
-    object-fit: cover;
-    margin-right: 20px; 
-  }
-  
-  .placeholder-image {
-    width: 200px; 
-    height: 150px; 
-    background-color: #d9d9d9; 
-    display: flex; 
-    justify-content: center; 
+
+.placeholder-image {
+    width: 150px;
+    height: 150px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    color: #666; 
-  }
-  .member-details h3 {
-    color: #007b98;
-    font-style: italic;
-  }
+    color: #666;
+    border-radius: 5px;
+}

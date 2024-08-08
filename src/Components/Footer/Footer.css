@@ -1,0 +1,125 @@
+.footer {
+    padding: 20px;
+    background-color: #08547a;
+    color: #fff;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 15% 25% 25% 25%;
+    gap: 20px;
+    text-align: center;
+  }
+  .sub-container .logo {
+    width: 100px;
+    height: auto;
+  }
+  .sub-container h2 {
+    color: #fcfc79; /* Gold color */
+    font-size: 24px;
+    text-align: start;
+  }
+  
+  .sub-container h6 {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: start;
+  }
+  
+  .sub-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sub-container ul li {
+    margin: 10px 0;
+  }
+  
+  .sub-container ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0;
+  }
+  
+  .social-icons ul li {
+    margin: 0 10px;
+  }
+  
+  .social-icons ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .subscribe {
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px;
+  }
+  
+  .subscribe h1 {
+    font-size: 35.872px;
+    line-height: 50.2208px;
+  }
+  
+  .subscribe h4 {
+    font-size:16px    ;
+    margin: 20px 0;
+    line-height: 28.8px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #0c3c5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .subscribe button:hover {
+    background-color: #ccc;
+  }
+  
+  .subscribe p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 50% 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      grid-template-columns: 100%;
+      
+    }
+    .sub-container h2 {
+        text-align: center;
+    }
+  }
+  

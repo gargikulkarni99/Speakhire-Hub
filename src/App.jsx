@@ -6,6 +6,7 @@ import Home from './Components/Hero/Home';
 import Contact from './Components/Contact/ContactMe'; 
 import NewsPage from './pages/News/NewsPage'; 
 
+// 
 const App = () => {
   return (
     <Router>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/news" element={<NewsPage />} /> 
       </Routes>
+
     </Router>
   );
 }

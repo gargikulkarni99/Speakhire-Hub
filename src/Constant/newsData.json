@@ -9,206 +9,206 @@
       },
       {
         "id": 2,
-        "image": "/src/assets/newsImage/Mag12.png",
-        "header": "SPEAKHIRE Mag 12 is out!",
-        "paragraph": "",
-        "Date": "Mar 1, 2022"
-      },
-      {
-        "id": 3,
-        "image": "/src/assets/newsImage/Mag10.png",
-        "header": "SPEAKHIRE Mag 10 is Out!",
-        "paragraph": "",
-        "Date": "Aug 2, 2021"
-      },
-      {
-        "id": 4,
-        "image": "/src/assets/newsImage/girls of color.png",
-        "header": "Grantmakers For Girls of Color funds SPEAKHIRE ",
-        "paragraph": "",
-        "Date": "Mar 19, 2021"
-      },
-      {
-        "id": 5,
-        "image": "/src/assets/newsImage/Mag7.png",
-        "header": "SPEAK Mag 7 is Out!",
-        "paragraph": "",
-        "Date": "Jul 6, 2020"
-      },
-      {
-        "id": 6,
-        "image": "/src/assets/newsImage/womenofworth.png",
-        "header": "Founder, Hetal Jani, selected as a 2019 L'Oreal Paris Women of Worth Honoree",
-        "paragraph": "Empower a Girl. Empower the World. This is the motto of SPEAK Mentorship, a non-profit founded by Hetal Jani, that develops the social and cultural capital of immigrant girls and empowers them to become future workforce leaders. SPEAK, which stands for Support Prepare Empower Aspiring Kids, does this by helping immigrant girls successfully integrate within different social contexts and navigate career choices. SPEAK provides young women with access to information, role models and opportunities that lead to successful and healthy post-secondary pathways. Since 2015, SPEAK Mentorship has impacted over 100 girls and their families in the U.S., and has grown a volunteer network of over 200 career professionals who serve as mentors to the young women of SPEAK. In 2017-2018 alone, SPEAK made 57 mentoring matches and conducted over 400 mentoring sessions with 75 girls, 94% of whom identify as immigrants.",
-        "Date": "Dec 11, 2019"
-      },
-      {
-        "id": 7,
-        "image": "/src/assets/newsImage/generation.png",
-        "header": "How One Second-Generation American Is Empowering Immigrant Girls Around the Country",
-        "paragraph": "“Why aren't more immigrant girls going to college? This woman knows—and she has a solution. There are 19.6 million immigrant children in the United States, yet only about 2 million of current college enrollees are first- or second-generation immigrants. There are many reasons for the discrepancy but one that doesn’t get enough attention is the role that culture plays in getting an education past high school. This is something that Hetal Jani has personal experience with—in fact, it’s the reason she started SPEAK, a non-profit organization that helps girls who are immigrants or children of immigrants navigate the gap between high school and college and career. Do you know the top skill that college students say these wish their parents had taught them? Add college to the list of things that are different in America.”",
-        "Date": "Oct 30, 2019"
-      },
-      {
-        "id": 8,
-        "image": "/src/assets/newsImage/youtube.png",
-        "header": "Founder, Hetal Jani, Interviews with SOAR Community Network",
-        "paragraph": "SCN Change Agent Interview Series - Meet Hetal Jani",
-        "Date": "Jul 31, 2019"
-      },
-      {
-        "id": 9,
         "image": "/src/assets/newsImage/win.jpg",
         "header": "Hetal Jani wins $5,000 Grant",
         "paragraph": "",
         "Date": "May 19, 2022"
       },
       {
-        "id": 10,
-        "image": "/src/assets/newsImage/newyork.jpg",
-        "header": "",
+        "id": 3,
+        "image": "/src/assets/newsImage/LAAN+(4).png",
+        "header": "Thank You to Crowell & Moring and Communitas America for Their Partnership in This Work.",
         "paragraph": "",
-        "Date": "May 19, 2022"
+        "Date": "Apr 13, 2022"
       },
       {
-        "id": 11,
-        "image": "/src/assets/newsImage/cares.png",
+        "id": 4,
+        "image": "/src/assets/newsImage/executive.jpg",
+        "header": "Founder and Executive Director Hetal Jani is Featured in Philanthropy Journal!",
+        "paragraph": "",
+        "Date": "Mar 23, 2022"
+      },
+      {
+        "id": 5,
+        "image": "/src/assets/newsImage/Mag12.png",
+        "header": "SPEAKHIRE Mag 12 is out!",
+        "paragraph": "",
+        "Date": "Mar 1, 2022"
+      },
+      {
+        "id": 6,
+        "image": "/src/assets/newsImage/newyork.jpg",
         "header": "ANA-NY Partnership with SPEAKHIRE!",
         "paragraph": "",
         "Date": "Jan 10, 2022"
       },
       {
-        "id": 12,
-        "image": "/src/assets/newsImage/radicalgenerosity.png",
+        "id": 7,
+        "image": "/src/assets/newsImage/UP.png",
+        "header": "Jerry Posman, of the UP project, Funds SPEAKHIRE",
+        "paragraph": "",
+        "Date": "Oct 27, 2021"
+      },
+      {
+        "id": 8,
+        "image": "/src/assets/newsImage/path.jpg",
+        "header": "“I believe in choosing your own path”",
+        "paragraph": "Jani (whose name is pronounced Heh-thul Jah-nee) experienced first-hand how often times people wouldn’t even try to say her name properly from an early age. In order to correct this behavior in all aspects of life, from graduations to work meetings, the Flushing native created the #SpeakingMyName campaign to help raise awareness about the importance of name inclusion.",
+        "Date": "Sep 16, 2021"
+      },
+      {
+        "id": 9,
+        "image": "/src/assets/newsImage/Mag10.png",
+        "header": "SPEAKHIRE Mag 10 is Out!",
+        "paragraph": "",
+        "Date": "Aug 2, 2021"
+      },
+      {
+        "id": 10,
+        "image": "/src/assets/newsImage/cares.png",
         "header": "New York State Cares For Communities Funds SPEAKHIRE!",
         "paragraph": "",
         "Date": "Aug 23, 2021"
       },
       {
+        "id": 11,
+        "image": "/src/assets/newsImage/crowell.png",
+        "header": "Crowell and Moring Foundation funds SPEAKHIRE for another year",
+        "paragraph": "",
+        "Date": "Jun 30, 2021"
+      },
+      {
+        "id": 12,
+        "image": "/src/assets/newsImage/girls of color.png",
+        "header": "Grantmakers For Girls of Color funds SPEAKHIRE",
+        "paragraph": "",
+        "Date": "Mar 19, 2021"
+      },
+      {
         "id": 13,
-        "image": "/src/assets/newsImage/Mag8.png",
+        "image": "/src/assets/newsImage/radicalgenerosity.png",
         "header": "New York Women’s Foundation funds SPEAKHIRE",
         "paragraph": "",
         "Date": "May 14, 2021"
       },
       {
         "id": 14,
-        "image": "/src/assets/newsImage/woman.png",
+        "image": "/src/assets/newsImage/QC-WHM.png",
+        "header": "Queens College celebrates women’s achievements globally and spotlights challenges amid COVID-19 pandemic",
+        "paragraph": "Jani (whose name is pronounced Heh-thul Jah-nee) experienced first-hand how often times people wouldn’t even try to say her name properly from an early age. In order to correct this behavior in all aspects of life, from graduations to work meetings, the Flushing native created the #SpeakingMyName campaign to help raise awareness about the importance of name inclusion.",
+        "Date": "Mar 22, 2021"
+      },
+      {
+        "id": 15,
+        "image": "/src/assets/newsImage/rednose.png",
+        "header": "Comic Relief US's Red Nose Day Campaign with Grantmakers For Girls of Color funds SPEAKHIRE",
+        "paragraph": "",
+        "Date": "Jun 18, 2021"
+      },
+      {
+        "id": 16,
+        "image": "/src/assets/newsImage/Mag7.png",
+        "header": "SPEAK Mag 7 is Out!",
+        "paragraph": "",
+        "Date": "July 6, 2020"
+      },
+      {
+        "id": 17,
+        "image": "/src/assets/newsImage/Mag8.png",
         "header": "SPEAK Mag 8 is Out!",
         "paragraph": "",
         "Date": "Dec 1, 2020"
       },
       {
-        "id": 15,
-        "image": "/src/assets/newsImage/Leading.jpg",
+        "id": 18,
+        "image": "/src/assets/newsImage/Mag9.png",
+        "header": "SPEAKHIRE Mag 9 is Out!",
+        "paragraph": "",
+        "Date": "Mar 1, 2021"
+      },
+      {
+        "id": 19,
+        "image": "/src/assets/newsImage/womenofworth.png",
+        "header": "Founder, Hetal Jani, selected as a 2019 L'Oreal Paris Women of Worth Honoree",
+        "paragraph": "Empower a Girl. Empower the World. This is the motto of SPEAK Mentorship, a non-profit founded by Hetal Jani, that develops the social and cultural capital of immigrant girls and empowers them to become future workforce leaders. SPEAK, which stands for Support Prepare Empower Aspiring Kids, does this by helping immigrant girls successfully integrate within different social contexts and navigate career choices. SPEAK provides young women with access to information, role models and opportunities that lead to successful and healthy post-secondary pathways. Since 2015, SPEAK Mentorship has impacted over 100 girls and their families in the U.S., and has grown a volunteer network of over 200 career professionals who serve as mentors to the young women of SPEAK. In 2017-2018 alone, SPEAK made 57 mentoring matches and conducted over 400 mentoring sessions with 75 girls, 94% of whom identify as immigrants.",
+        "Date": "Dec 11, 2019"
+      },
+      {
+        "id": 20,
+        "image": "/src/assets/newsImage/woman.png",
         "header": "NEW YORK WOMAN EMPOWERS OVER 100 HIGH SCHOOL GIRLS THROUGH MENTORSHIP",
         "paragraph": "Meet Daily Point of Light Award honoree Hetal Jani, who was a 2019 L’Oréal Paris Women of Worth Award. Each year L’Oréal Paris and Points of Light recognize and celebrate Women of Worth who make a beautiful difference in their communities. Ten honorees each receive a $10,000 grant to support their most cherished cause, and an online vote determines one honoree who will receive an additional $25,000 grant. Nominations for 2020 will open on April 20! If you know a woman who works to create lasting and significant change in her community, nominate her to be one of the 2020 Women of Worth.",
         "Date": "Apr 1, 2020"
       },
       {
-        "id": 16,
-        "image": "/src/assets/newsImage/boldtv.jpeg",
-        "header": "Leading Cosmetic House Recognizes Two Indian-American Women For Philanthropic Work",
-        "paragraph": "“New York City resident Hetal Jani and Ashburn, Virginia’s Shreyaa Venkat have been selected as two of the 2019 Women of Worth Honorees by L’Oréal Paris for their outstanding work in founding and running non-profits that help communities. Jani is the founder of SPEAK Mentorship. The non-profit advances diversity in leadership through college and career preparedness, mentoring immigrant girls on cultural identity, career trajectory and gender association.”",
-        "Date": "Nov 11, 2019"
-      },
-      {
-        "id": 17,
-        "image": "/src/assets/newsImage/forbes.png",
-        "header": "Forbes - L’Oreal Paris Annual Award For Women Of Worth Showcases Talented Change-Makers",
-        "paragraph": "“Because you're worth it!” the iconic tag line associated with L’Oréal's advertising campaign is the inspiration behind the 14th year of the company’s Women of Worth awards. The nominees for 2019 present a collection of dynamic women who are change-makers pushing boundaries to create change in their communities through volunteerism. The breadth of women celebrated by the Women of Worth awards demonstrates the impact of female founders who are working on causes to address some of the most pressing issues in society.”",
-        "Date": "Nov 5, 2019"
-      },
-      {
-        "id": 18,
-        "image": "/src/assets/newsImage/immigrant.png",
-        "header": "How One Second-Generation American Is Empowering Immigrant Girls Around the Country",
-        "paragraph": "“Why aren't more immigrant girls going to college? This woman knows—and she has a solution. There are 19.6 million immigrant children in the United States, yet only about 2 million of current college enrollees are first- or second-generation immigrants. There are many reasons for the discrepancy but one that doesn’t get enough attention is the role that culture plays in getting an education past high school. This is something that Hetal Jani has personal experience with—in fact, it’s the reason she started SPEAK, a non-profit organization that helps girls who are immigrants or children of immigrants navigate the gap between high school and college and career.”",
-        "Date": "Oct 30, 2019"
-      },
-      {
-        "id": 19,
-        "image": "/src/assets/newsImage/interview.png",
-        "header": "Founder, Hetal Jani, talks with Presidential Candidate Andrew Yang for NPR",
-        "paragraph": "“When you hear a big idea from a presidential candidate, do you ever want to ask: How would that work? Two undecided voters John Zeitler, a 48-year-old attorney for an insurance company, and Hetal Jani, 36, who runs a non-profit that helps young women, had the opportunity to do just that when Andrew Yang visited the NYC Public Library on a Wednesday morning in November. It was part of a series of events Yang is holding around the country called “The Humanity First Tour.” Jani learned a lot about Yang's vision, and took the opportunity to ask how he planned to create economic opportunities for the millions of children of immigrants who face barriers to their education and employment.”",
-        "Date": "Nov 15, 2019"
-      },
-      {
-        "id": 20,
-        "image": "/src/assets/newsImage/big.png",
-        "header": "Big Apple: Women’s Voices Resound In City’s Leadership",
-        "paragraph": "“The city has made strides in ensuring the voices of women, especially those from marginalized backgrounds, are heard. The city’s changing political landscape has allowed groups like SPEAK to grow and flourish. Founded by Hetal Jani, SPEAK is a non-profit organization that empowers young immigrant women through mentoring and community building.”",
-        "Date": "Jun 10, 2019"
-      },
-      {
         "id": 21,
-        "image": "/src/assets/newsImage/education.png",
-        "header": "Empowering Immigrant Girls: A Community Response",
-        "paragraph": "SPEAK has taken an active role in addressing the challenges faced by immigrant girls in navigating education and employment opportunities.",
-        "Date": "Jan 15, 2020"
+        "image": "/src/assets/newsImage/speekingmyname.png",
+        "header": "#SpeakingMyName campaign aims to raise awareness about importance of name inclusion",
+        "paragraph": "Jani (whose name is pronounced Heh-thul Jah-nee) experienced first-hand how often times people wouldn’t even try to say her name properly from an early age. In order to correct this behavior in all aspects of life, from graduations to work meetings, the Flushing native created the #SpeakingMyName campaign to help raise awareness about the importance of name inclusion. ",
+        "Date": "Jun 12, 2020        "
       },
       {
         "id": 22,
-        "image": "/src/assets/newsImage/community.png",
-        "header": "Building Community through Mentorship",
-        "paragraph": "SPEAK’s mentorship programs have successfully connected over 200 girls with career professionals, enhancing their educational and career pathways.",
-        "Date": "Feb 20, 2020"
+        "image": "/src/assets/newsImage/40.png",
+        "header": "SPEAKHIRE receives Vela Education Fund Meet the Moment Grant",
+        "paragraph": "Jani (whose name is pronounced Heh-thul Jah-nee) experienced first-hand how often times people wouldn’t even try to say her name properly from an early age. In order to correct this behavior in all aspects of life, from graduations to work meetings, the Flushing native created the #SpeakingMyName campaign to help raise awareness about the importance of name inclusion",
+        "Date": "May 29, 2020        "
       },
       {
         "id": 23,
-        "image": "/src/assets/newsImage/workshop.png",
-        "header": "Workshops Empowering Future Leaders",
-        "paragraph": "Through hands-on workshops, SPEAK empowers young women with essential skills for success in their future careers.",
-        "Date": "Mar 5, 2020"
+        "image": "/src/assets/newsImage/generation.png",
+        "header": "How One Second-Generation American Is Empowering Immigrant Girls Around the Country",
+        "paragraph": "“Why aren't more immigrant girls going to college? This woman knows—and she has a solution.   There are 19.6 million immigrant children in the United States, yet only about 2 million of current college enrollees are first- or second-generation immigrants. There are many reasons for the discrepancy but one that doesn’t get enough attention is the role that culture plays in getting an education past high school. This is something that Hetal Jani has personal experience with—in fact, it’s the reason she started SPEAK, a non-profit organization that helps girls who are immigrants or children of immigrants navigate the gap between high school and college and career.    Do you know the top skill that college students say these wish their parents had taught them?  Add college to the list of things that are different in America”",
+        "Date": "Oct 30, 2019"
       },
       {
         "id": 24,
-        "image": "/src/assets/newsImage/conference.png",
-        "header": "SPEAK Conference Brings Together Leaders and Innovators",
-        "paragraph": "The annual SPEAK conference has become a platform for young women to connect with industry leaders and share their stories.",
-        "Date": "Apr 12, 2020"
+        "image": "/src/assets/newsImage/Leading.jpg",
+        "header": "Leading Cosmetic House Recognizes Two Indian-American Women For Philanthropic Work",
+        "paragraph": "“New York City resident Hetal Jani and Ashburn, Virginia’s Shreyaa Venkat have been selected as two of the 2019 Women of Worth Honorees by L’Oréal Paris for their outstanding work in founding and running non-profits that help communities. Jani is the founder of  SPEAK Mentorship. The non-profit advances diversity in leadership through college and career preparedness, mentoring immigrant girls on cultural identity, career trajectory and gender association.”",
+        "Date": "Nov 5, 2019"
       },
       {
         "id": 25,
-        "image": "/src/assets/newsImage/awards.png",
-        "header": "Celebrating Young Leaders at the SPEAK Awards",
-        "paragraph": "The SPEAK Awards honor the achievements of young women who have demonstrated leadership and resilience in their communities.",
-        "Date": "May 22, 2020"
+        "image": "/src/assets/newsImage/forbes.jpg",
+        "header": "Forbes - L’Oreal Paris Annual Award For Women Of Worth Showcases Talented Change-Makers",
+        "paragraph": "“Because you're worth it!” the iconic tag line associated with L’Oréal's advertising campaign is the inspiration behind the 14th year of the company’s Women of Worth awards. The nominees for 2019 present a collection of dynamic women who are change-makers pushing boundaries to create change in their communities through volunteerism. The breadth of women celebrated by the Women of Worth awards demonstrates the impact of female founders who are working on causes to address some of the most pressing issues in society.”",
+        "Date": "Nov 1, 2019"
       },
       {
         "id": 26,
-        "image": "/src/assets/newsImage/scholarship.png",
-        "header": "SPEAK Scholarships Open Doors for Immigrant Girls",
-        "paragraph": "SPEAK’s scholarship program has provided financial assistance to many young women pursuing higher education.",
-        "Date": "Jun 18, 2020"
+        "image": "/src/assets/newsImage/oreal.jpg",
+        "header": "L’Oréal Paris to Honor Two Indian American Philanthropists for Igniting Positive Change in Community",
+        "paragraph": "L’Oréal Paris has announced that two Indian American philanthropists, Hetal Jani and Shreyaa Venkat, are among ten ‘2019 Women of Worth’ honorees, who will be awarded $10,000 towards their worthy causes. These women represent a range of causes, including empowering at-risk teenage girls, supporting survivors of conversion therapy and helping parents of children with learning disabilities to navigate the special education system, said L’Oréal. “Inspired by the L’Oréal Paris tagline, “Because You’re Worth It,” the philanthropic Women of Worth program honors the “intrinsic worth of everyday women igniting positive change in their communities and championing self-worth in others,” said the company. Jani of Queens, New York, is the founding executive director of SPEAK Mentorship, which stands for Support Prepare Empower Aspiring Kids. The organization works towards advancing diversity in leadership through college and career preparedness, mentoring immigrant girls on cultural identity, career trajectory and gender association.” ",
+        "Date": "Nov 11, 2019        "
       },
       {
         "id": 27,
-        "image": "/src/assets/newsImage/impact.png",
-        "header": "Impacting Lives: SPEAK Success Stories",
-        "paragraph": "Hear from the young women whose lives have been changed through SPEAK’s mentorship and support programs.",
-        "Date": "Jul 25, 2020"
+        "image": "/src/assets/newsImage/youtube.png",
+        "header": "Founder, Hetal Jani, Interviews with SOAR Community Network   ",
+        "paragraph": "SCN Change Agent Interview Series - Meet Hetal Jani ",
+        "Date": "Jul 31, 2019"
       },
       {
         "id": 28,
-        "image": "/src/assets/newsImage/fundraiser.png",
-        "header": "SPEAK Fundraiser Success: Community Comes Together",
-        "paragraph": "The recent fundraiser showcased the community's commitment to supporting immigrant girls and their education.",
-        "Date": "Aug 30, 2020"
+        "image": "/src/assets/newsImage/boldtv.jpeg",
+        "header": "Hetal Jani on BOLD TV",
+        "paragraph": "Hetal Jani, founder of SPEAK Mentorship  and 2019 L’Oreal Paris Women of Worth honoree, discusses her mentorship program and being honored as a L’Oreal Paris Women of Worth! Watch the interview here.",
+        "Date": "Oct 24, 2019"
       },
       {
         "id": 29,
-        "image": "/src/assets/newsImage/volunteers.png",
-        "header": "Thanking Our Volunteers: The Heart of SPEAK",
-        "paragraph": "SPEAK recognizes the invaluable contributions of volunteers who dedicate their time to mentoring young women.",
-        "Date": "Sep 12, 2020"
+        "image": "/src/assets/newsImage/npr.jpg",
+        "header": "Founder, Hetal Jani, talks with Presidential Candidate Andrew Yang for NPR",
+        "paragraph": "When you hear a big idea from a presidential candidate, do you ever want to ask: How would that work? Two undecided voters John Zeitler, a 48-year-old attorney for an insurance company, and Hetal Jani, 36, who runs a nonprofit focused on education and mentorship, wanted to know more about the 'freedom dividend' proposal from first-time presidential candidate Andrew Yang. The voters, along with Morning Edition host Noel King, sat down with Yang at a Midtown Manhattan dumpling shop called Baodega as part of Off Script, a series of interviews with 2020 presidential candidates. Listen to the group's conversation about the freedom dividend by clicking the audio button above. Watch the full conversation here. ”        ",
+        "Date": "Oct 23, 2019"
       },
       {
         "id": 30,
         "image": "/src/assets/newsImage/partnership.png",
-        "header": "New Partnerships Expand Opportunities for Young Women",
-        "paragraph": "SPEAK has partnered with local businesses to provide internships and job placements for young immigrant women.",
-        "Date": "Oct 5, 2020"
+        "header": "",
+        "paragraph": "",
+        "Date": ""
       }
     ]
   }

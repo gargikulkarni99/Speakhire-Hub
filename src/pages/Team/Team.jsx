@@ -1,8 +1,9 @@
 import React from 'react';
+import { FaLinkedin } from 'react-icons/fa'; // Import LinkedIn icon
 import executiveBoard from '/src/Constant/executiveBoard.json';
-import juniorBoard from '/src/Constant/juniorBoard.json'; // Import the junior board data
+import juniorBoard from '/src/Constant/juniorBoard.json';
 import { motion } from 'framer-motion';
-import "./Team.css";
+import './Team.css';
 
 const Team = () => {
   return (
@@ -20,15 +21,16 @@ const Team = () => {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-      ><motion.div
-      className='junior-board-title'
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
-      Executive Board Members
-    </motion.div>
+      >
         {/* Executive Board Members */}
+        <motion.div
+          className='junior-board-title'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          Executive Board Members
+        </motion.div>
         {executiveBoard.executiveBoard.map((member) => (
           <motion.div
             className='sub-team'
@@ -43,6 +45,9 @@ const Team = () => {
                 <h2>{member.name}</h2>
                 <h3>{member.role}</h3>
                 <p>{member.description}</p>
+                <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin-link">
+                  <FaLinkedin size={34} /> {/* Use the LinkedIn icon */}
+                </a>
               </div>
             </div>
           </motion.div>
@@ -76,6 +81,9 @@ const Team = () => {
                 <h2>{member.name}</h2>
                 <h3>{member.role}</h3>
                 <p>{member.description || 'No description available.'}</p>
+                <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin-link">
+                  <FaLinkedin size={34} /> {/* Use the LinkedIn icon */}
+                </a>
               </div>
             </div>
           </motion.div>
@@ -86,4 +94,3 @@ const Team = () => {
 };
 
 export default Team;
-
