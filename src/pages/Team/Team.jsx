@@ -7,7 +7,7 @@ import './Team.css';
 
 const Team = () => {
   return (
-    <div className='container'>
+    <div className='containers'>
       <motion.div
         className='speakhire-team'
         initial={{ opacity: 0 }}

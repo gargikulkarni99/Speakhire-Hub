@@ -48,7 +48,7 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                             <li><Link to="/" onClick={handleLinkClick}>Theory of Change</Link></li>
                             <li><Link to="/team" onClick={handleLinkClick}>Team</Link></li> {/* Updated Link */}
                             <li><Link to="/news" onClick={handleLinkClick}>News</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>SPEAKHIRE Mag.</Link></li>
+                            <li><Link to="/mag" onClick={handleLinkClick}>SPEAKHIRE Mag.</Link></li>
                         </ul>
                     )}
                 </li>

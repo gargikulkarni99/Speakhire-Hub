@@ -2,6 +2,7 @@ import newsData from "/src/Constant/newsData.json";
 import './NewPages.css';
 import { motion } from 'framer-motion'; // Import Framer Motion
 
+
 const NewsPage = () => {
   return (
     <div className="news-container">
@@ -23,6 +24,8 @@ const NewsPage = () => {
           </motion.div>
         ))}
       </div>
+     <div className="button-class"><a href="#" className="button">View SPEAKHIRE Mags</a></div> <br></br>
+    
     </div>
   );
 };
