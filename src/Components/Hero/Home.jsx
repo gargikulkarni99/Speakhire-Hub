@@ -130,6 +130,8 @@ const Home = () => {
   </div>
 
   <CardsList/>
+
+  <div className="button-class"><a href='#'>Donate</a></div>
  
 
     </div>

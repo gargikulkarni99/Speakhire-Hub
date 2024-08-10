@@ -24,7 +24,7 @@ const NewsPage = () => {
           </motion.div>
         ))}
       </div>
-     <div className="button-class"><a href="#" className="button">View SPEAKHIRE Mags</a></div> <br></br>
+     <div className="button-class"><a href="/mag" className="button">View SPEAKHIRE Mags</a></div> <br></br>
     
     </div>
   );

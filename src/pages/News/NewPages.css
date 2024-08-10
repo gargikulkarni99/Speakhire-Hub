@@ -56,20 +56,32 @@
     font-size: 0.9rem;
     color: gray;
   }
- .button {
-  background-color: #fcfc79;
-  text-align: center;
-  padding: 20px 30px;
-  margin-top: 30px;
-  letter-spacing: 0.32px;
-  font-size: 16px;
-  border-radius: 6.4px;
-  text-decoration: none;
-  color: black;
- }
+ 
+ 
+ 
+ 
+  .button {
+    background-color: #fcfc79;
+    text-align: center;
+    padding: 20px 30px;
+  
+    letter-spacing: 0.32px;
+    font-size: 16px;
+    border-radius: 6.4px;
+    text-decoration: none;
+    color: black;
+   
+   }
+ 
+ 
+ 
+ 
+ 
+ 
  .button-class {
   margin: 20px 0;
   text-align: center;
+  margin-right: 80px;
  }
   /* Responsive adjustments */
   @media (max-width: 1024px) {

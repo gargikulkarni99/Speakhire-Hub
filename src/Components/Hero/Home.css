@@ -322,7 +322,25 @@
     opacity: 1;
     max-height: 200px; 
   }
-  
+  .button-class {
+    background-color: #fcfc79;
+    text-align: center;
+    padding: 21px 35px;
+    margin: 50px 0 !important;
+    letter-spacing: 0.32px;
+    font-size: 17.656px;
+    border-radius: 6.4px;
+    text-decoration: none;
+    
+    width: max-content;
+    margin-left: 43% !important;
+    letter-spacing: 0.35312px;
+    
+   }
+   .button-class a {
+    text-decoration: none;
+    color: black;
+   }
   /* Responsive Design */
   @media (max-width: 768px) {
     .cards-container {

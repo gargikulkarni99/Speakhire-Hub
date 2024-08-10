@@ -39,15 +39,18 @@ const Mag = () => {
           </a>
         </div>
       </motion.div>
+      <h1 className='past-issue'>Read Our Past Issues </h1>
+      <hr></hr>
 
       <div className='issue'>
+     
         {otherIssues.map((issue) => (
           <motion.div
             key={issue.id}
             className='sub-issue'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-          >
+          > 
             <div className='image-container'>
               <a href={`/issue/${issue.id}`}>
                 <img src={issue.image} alt={issue.issue} />
@@ -64,9 +67,9 @@ const Mag = () => {
           </motion.div>
         ))}
       </div>
-
+       <hr></hr>
       <motion.div
-        className='button'
+        className='button-mag'
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
