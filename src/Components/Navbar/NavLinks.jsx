@@ -81,7 +81,7 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                             <li><Link to="/" onClick={handleLinkClick}>First Step</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Leadership Courses</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Foundational Year</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>SPEAKHIRE Seminars</Link></li>
+                            <li><Link to="/seminar" onClick={handleLinkClick}>SPEAKHIRE Seminars</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Exploratory Years</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Pathways Days</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>SPEAKHIRE Summit & Soiree</Link></li>

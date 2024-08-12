@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import './ContactMe.css'; // Ensure this CSS file is created
+import './ContactMe.css';
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({
@@ -30,17 +30,17 @@ const ContactMe = () => {
       <div className="contact-info">
         <motion.h1 
           className="contact-title"
-          initial={{ y: -50, opacity: 0 }} // Start from above
-          animate={{ y: 0, opacity: 1 }} // Move to original position
-          transition={{ duration: 0.5 }} // Animation duration
+          initial={{ y: -50, opacity: 0 }} 
+          animate={{ y: 0, opacity: 1 }} 
+          transition={{ duration: 0.5 }} 
         >
           Contact Me
         </motion.h1>
         <motion.p 
           className="contact-subtitle"
-          initial={{ y: -30, opacity: 0 }} // Start from above
-          animate={{ y: 0, opacity: 1 }} // Move to original position
-          transition={{ duration: 0.5, delay: 0.2 }} // Animation duration and delay
+          initial={{ y: -30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.2 }} 
         >
           You SPEAK. We Listen. Leave a message!
         </motion.p>
@@ -49,15 +49,15 @@ const ContactMe = () => {
       <motion.form 
         className="contact-form"
         onSubmit={handleSubmit}
-        initial={{ scale: 0 }} // Start scaled down
-        animate={{ scale: 1 }} // Scale to original size
-        transition={{ duration: 0.5 }} // Animation duration
+        initial={{ scale: 0 }} 
+        animate={{ scale: 1 }}
+        transition={{ duration: 0.5 }}
       >
         <motion.div 
           className="form-group name-group"
-          initial={{ x: -50, opacity: 0 }} // Start from the left
-          animate={{ x: 0, opacity: 1 }} // Move to original position
-          transition={{ duration: 0.5, delay: 0.2 }} // Animation duration and delay
+          initial={{ x: -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.2 }} 
         >
           <label htmlFor="firstName">Name (required)</label>
           <div className="name-fields">
@@ -83,9 +83,9 @@ const ContactMe = () => {
         </motion.div>
         <motion.div 
           className="form-group"
-          initial={{ x: -50, opacity: 0 }} // Start from the left
-          animate={{ x: 0, opacity: 1 }} // Move to original position
-          transition={{ duration: 0.5, delay: 0.4 }} // Animation duration and delay
+          initial={{ x: -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.4 }} 
         >
           <label htmlFor="email">Email (required)</label>
           <input 
@@ -99,9 +99,9 @@ const ContactMe = () => {
         </motion.div>
         <motion.div 
           className="form-group"
-          initial={{ x: -50, opacity: 0 }} // Start from the left
-          animate={{ x: 0, opacity: 1 }} // Move to original position
-          transition={{ duration: 0.5, delay: 0.6 }} // Animation duration and delay
+          initial={{ x: -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }} 
+          transition={{ duration: 0.5, delay: 0.6 }} 
         >
           <label htmlFor="subject">Subject (required)</label>
           <input 
@@ -115,9 +115,9 @@ const ContactMe = () => {
         </motion.div>
         <motion.div 
           className="form-group"
-          initial={{ x: -50, opacity: 0 }} // Start from the left
-          animate={{ x: 0, opacity: 1 }} // Move to original position
-          transition={{ duration: 0.5, delay: 0.8 }} // Animation duration and delay
+          initial={{ x: -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.8 }} 
         >
           <label htmlFor="message">Message (required)</label>
           <textarea 
@@ -131,9 +131,9 @@ const ContactMe = () => {
         <motion.button 
           type="submit"
           className="submit-button"
-          initial={{ scale: 0 }} // Start scaled down
-          animate={{ scale: 1 }} // Scale to original size
-          transition={{ duration: 0.5, delay: 1 }} // Animation duration and delay
+          initial={{ scale: 0 }} 
+          animate={{ scale: 1 }} 
+          transition={{ duration: 0.5, delay: 1 }}
         >
           Send
         </motion.button>

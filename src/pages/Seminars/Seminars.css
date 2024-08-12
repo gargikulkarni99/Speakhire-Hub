@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+.seminars {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto; 
+  max-width: 1200px; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #007b98;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #f9f9f9;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #fcfc79;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.seminar-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.sub-seminar img {
+  width: 100%; 
+  max-width: 600px; 
+}
+
+.sub-seminar {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 22.624px;
+ 
+}
+.sub-seminar p {
+    font-weight: 200;
+}
+.sub-seminar span {
+  font-weight: 900;
+}
+
+.sub-seminar a {
+  color: #007b98;
+}
+
+.Envision {
+  margin: 20px 0;
+}
+
+.Envision h3 {
+  margin: 0;
+}
+
+.Envision p {
+  margin: 5px 0;
+}
+
+.Envision span {
+  font-weight: 900;
+}
+
+.Envision p span {
+  color: #007b98;
+}
+
+.Envision p {
+  font-weight: 200;
+  color: #007b98;
+}
+
+.topics {
+  margin: 20px 0;
+}
+
+.topics h3 {
+  margin: 0;
+  color: #007b98;
+}
+
+
+
+
+
+
+
+
+
+.topic-item {
+  color: #007b98;
+}
+
+
+
+
+
+.images {
+    display: flex;
+    justify-content: center; 
+    gap: 60px;
+    margin: 40px 0;
+    text-align: center;
+    flex-wrap: wrap; 
+  }
+  
+  .images img {
+    width: 100px; 
+    height: auto;
+  }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .seminar-container {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column; 
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .header a {
+    margin-top: 10px; 
+    text-align: center;
+    margin-left: 20px;
+  }
+  .images {
+    justify-content: center; 
+    gap: 20px; 
+  }
+
+  .images img {
+    width: calc(50% - 10px); 
+    max-width: 100px; 
+  }
+
+
+
+
+}
