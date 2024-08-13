@@ -43,9 +43,9 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                     <Link to="/" onClick={handleLinkClick}>About</Link>
                     {(activeDropdown === 'about' || isClicked) && (
                         <ul className="dropdown">
-                            <li><Link to="/" onClick={handleLinkClick}>Mission</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Impact</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Theory of Change</Link></li>
+                            <li><Link to="/ourmission" onClick={handleLinkClick}>Mission</Link></li>
+                            <li><Link to="/impact" onClick={handleLinkClick}>Impact</Link></li>
+                            <li><Link to="/theory" onClick={handleLinkClick}>Theory of Change</Link></li>
                             <li><Link to="/team" onClick={handleLinkClick}>Team</Link></li> {/* Updated Link */}
                             <li><Link to="/news" onClick={handleLinkClick}>News</Link></li>
                             <li><Link to="/mag" onClick={handleLinkClick}>SPEAKHIRE Mag.</Link></li>

@@ -1,103 +1,15 @@
-import { useRef } from "react";
-import { FaBars, FaTimes, FaGlobe, FaCaretDown } from "react-icons/fa";
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
-import Logo from "../Components/Logo.png";
+import React from "react";
 import "../Styles/Intern.css";
-import { Link } from "react-router-dom";
 import LeadershipCoursesImg from "../Components/EL Leadership Courses.png"; 
 import NetworkImg from "../Components/FY Intern Explainer.png"; 
 import Students from "../Components/students.jpg";
 import Amizo from "../Components/Amizo.jpg";
 import Melvin from "../Components/Melvin.jpg";
-import Seal from "../Components/candid-seal-gold-2022.png"
 
-function Intern() {
-  const navRef = useRef();
 
-  const showIntern = () => {
-    navRef.current.classList.toggle("responsive_nav");
-  };
-
-  const handleLogoClick = () => {
-    window.location.reload(); // Reloads the current page
-  };
-
+const Intern = () => {
   return (
     <>
-      <header>
-        <img src={Logo} alt="Logo" className="Logo" onClick={handleLogoClick} />
-        <nav ref={navRef}>
-          <div className="nav-item">
-            <a href="/#about">About</a>
-            <div className="dropdown-menu">
-              <a href="/#our-mission">Our Mission</a>
-              <a href="/#impact">Impact</a>
-              <a href="/#theory-of-change">Theory of Change</a>
-              <a href="/#team">Team</a>
-              <a href="/#news">News</a>
-              <a href="/#speakhire-mag">SPEAKHIRE Mag</a>
-            </div>
-          </div>
-          <div className="nav-item">
-            <a href="/#get-involved">Get Involved</a>
-            <div className="dropdown-menu">
-              <a href="/#partner-schools-and-orgs">Partner Schools and Orgs</a>
-              <Link to="/intern">Intern</Link>
-              <Link to="/champions">Champions</Link>
-              <a href="/#careers">Careers</a>
-              <a href="/#volunteer">Volunteer</a>
-            </div>
-          </div>
-          <div className="nav-item">
-            <a href="/#activities">Activities</a>
-            <div className="dropdown-menu">
-              <a href="/#all-activities">All Activities</a>
-              <a href="/#speakhire-series">Speakhire Series</a>
-              <a href="/#first-step">First Step</a>
-              <a href="/#leadership-courses">Leadership Courses</a>
-              <a href="/#foundational-year">Foundational Year</a>
-              <a href="/#speakhire-seminars">SPEAKHIRE Seminars</a>
-              <a href="/#exploratory-years">Exploratory Years</a>
-              <a href="/#pathways-days">Pathways Days</a>
-              <a href="/#speakhire-summit-&-soiree">SPEAKHIRE Summit & Soiree</a>
-              <a href="/#symposiums">Symposiums</a>
-              <a href="/#speakingmyname">SpeakingMyName</a>
-            </div>
-          </div>
-          <a href="/#">Contact</a>
-          <button className="nav-btn nav-close-btn" onClick={showIntern}>
-            <FaTimes />
-          </button>
-        </nav>
-        <div className="header-right">
-          <div className="social-media">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebook />
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              <FaInstagram />
-            </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-              <FaYoutube />
-            </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-              <FaTwitter />
-            </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin />
-            </a>
-          </div>
-          <div className="language-selector">
-            <FaGlobe />
-            <span>English</span>
-            <FaCaretDown />
-          </div>
-          <button className="donate-btn">DONATE</button>
-        </div>
-        <button className="nav-btn" onClick={showIntern}>
-          <FaBars />
-        </button>
-      </header>
       <section className="blue-section">
         <div className="blue-section-left">
           <h2>Interns</h2>
@@ -179,55 +91,6 @@ function Intern() {
       <section className="centered-learn-more-section">
         <button className="learn-more-btn">Learn More</button>
       </section>
-      <section className="dark-blue-section-2">
-        <div className="upper-part">
-          <div className="left">
-            <img src={Seal} alt="Logo" className="upper-img" />
-            <h2>SPEAKHIRE</h2>
-            <p>SPEAKHIRE is a 501c3 organization. EIN 47-4132773</p>
-          </div>
-          <div className="right">
-            <div className="links-row">
-              <a href="/#about">About</a>
-              <a href="/#get-involved">Get Involved</a>
-              <a href="/#contact">Contact</a>
-            </div>
-            <div className="links-row">
-              <a href="/#donate">DONATE</a>
-              <a href="/#careers">Careers</a>
-              <a href="/#volunteer">Volunteer</a>
-            </div>
-            <div className="social-media-icons">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                <FaFacebook />
-              </a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                <FaInstagram />
-              </a>
-              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                <FaYoutube />
-              </a>
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                <FaTwitter />
-              </a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin />
-              </a>
-            </div>
-          </div>
-        </div>
-        <hr className="divider-line" />
-        <div className="lower-part">
-          <h2>Subscribe</h2>
-          <p>Stay updated with everything SPEAKHIRE.</p>
-          <div className="subscription-box">
-            <input type="text" placeholder="Enter your email" />
-            <button className="sign-up-btn">Sign Up</button>
-          </div>
-          <p>We respect your privacy.</p>
-        </div>
-      </section>
-
     </>
   );
 }
