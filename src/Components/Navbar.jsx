@@ -23,6 +23,11 @@ const Navbar = () => {
     window.location.reload(); 
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert('Thank you for subscribing!');
+  };
+
   return (
     <>
       <header>

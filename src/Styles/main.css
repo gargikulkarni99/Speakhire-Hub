@@ -134,7 +134,7 @@ nav a:hover {
 	top: 45%; /* Adjust vertical position as needed */
 	left: 5%; /* Adjust horizontal position as needed */
 	transform: translateY(-20%); /* Center vertically */
-	color: #194c7f;
+	color: #163d63;
 	font-size: 1rem; /* Adjust font size as needed */
 	font-weight: normal;
 	text-shadow: rgb(29, 86, 139) ; /* Optional: Add text shadow for better readability */
@@ -277,60 +277,6 @@ nav a:hover {
 	border-radius: 8px; /* Rounded corners for the image */
 }
 
-.new-section {
-	padding: 40px 20px;
-	text-align: left;
-}
-
-.section-header {
-	font-size: 32px;
-	margin-bottom: 45px;
-	text-align: left;
-	color: #194c7f;
-}
-
-.columns {
-	display: flex;
-	gap: 20px;
-}
-
-.column {
-	flex: 1;
-	background-color: white;
-	padding: 20px;
-	box-shadow: white;
-	text-align: center;
-	color: black;
-}
-
-.column-image {
-	width: 100%;
-	height: 250px; /* Adjust height as needed */
-	object-fit: scale-down;
-}
-
-.column-title {
-	font-size: 24px;
-	margin: 20px 0 10px;
-}
-
-.column-text {
-	font-size: 16px;
-}
-
-.donate-button-container {
-	text-align: center;
-	margin-top: 50px;
-}
-	
-.donate-btn {
-	background-color: #f5f85e;
-	color: black;
-	padding: 10px 20px;
-	border: none;
-	cursor: pointer;
-	font-size: 1rem;
-}
 @media (max-width: 767px) {
 	.nav-btn {
 		display: block;
@@ -349,3 +295,71 @@ nav a:hover {
 		align-items: center;
 	}
 }
+
+.new-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center; /* Center text for columns */
+}
+
+.section-header {
+    font-size: 32px;
+    margin-bottom: 45px;
+    color: #194c7f;
+    align-self: flex-start; /* Align header to the left */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Ensure the header spans the full width */
+}
+
+.columns {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center columns horizontally */
+    margin-bottom: 50px; /* Add margin to separate from the button */
+}
+
+.column {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside columns */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-image {
+    width: 100%; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.column-title {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.column-text {
+    font-size: 16px;
+    flex: 1; /* Ensure text takes remaining space */
+}
+
+.donate-button-container {
+    text-align: center;
+    margin-top: 50px; /* Separate from columns */
+}
+
+.donate-btn {
+    background-color: #f5f85e;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
