@@ -1,0 +1,41 @@
+{
+    "juniorBoard": [
+      {
+        "id": 1,
+        "image": "/src/assets/TeamAssets/Hetal_files/ousmanediallo.jpeg",
+        "name": "Ousmane Diallo",
+        "role": "Junior Board Chair",
+        "description": "My name is Ousmane Diallo and I am from Mali Bamako. Growing up in a family where knowledge was more precious than anything else. I know many people had the blessing to be raised with their biological parents. However, I wasn’t raised with my parents and that gave a lot of benefits that others don’t experience. When I moved to New York City and joined Speakhire Foundational Year it showed how a person like me can find a pathway to succeed in foreign land. Before, I joined the Speakhire Foundational Year Program. I did not nothing about leadership as an individual. This program lays out the blueprint for me to seek more opportunities and interact with amazing leaders. Now, I am an undergraduate student at CUNY New York City College of Technology majoring in Computer Systems. The skills I acquired from the Foundational Year is a blueprint for your leadership journey. I am eager to pursue my leadership journey because my greatest inspiration in life is to become an Islamic Scholar and being a scholar requires leadership and well-mannered. From now on is to develop my leadership skills through Speakhire developing leaders for tomorrow.",
+        "linkedin": "https://www.linkedin.com/in/ousmane-diallo-005ab7246/"
+      },
+      {
+        "id": 2,
+        "image": "/src/assets/TeamAssets/Hetal_files/Adama.jpg",
+        "name": "Adama Bah",
+        "role": "Junior Board VP",
+        "description": "My name is Adama Bah, and I’m from Guinea Conakry. Growing up, my mother instilled in me the value of education when I was little. She used to tell me that one of the most effective tools for changing the world in the modern day is education. Speakhire has shown me the way to a promising future. I was a part of the Foundational Year in the 11th and 12th grade at International Community HS in the Bronx. My exposure to the program has given me a wealth of chances that have helped me in every aspect of my life. The SpeakHire program has given me many chances that so many others do not have, as well as opened my eyes to a bright future. I'm thrilled to have the privilege to assist others in need, to work with students and be in a position to improve their lives. I'm eager to carry on this journey with SpeakHire and educate tomorrow's leaders in order to inspire and empower them for a better tomorrow."
+      },
+      {
+        "id": 3,
+        "image": "/src/assets/TeamAssets/Hetal_files/Leily.jpg",
+        "name": "Leyli Hernandez",
+        "role": "Junior Board Treasurer",
+        "description": "My name is Leyli Hernandez, a freshman at Academy of American Studies. My parents came to the US from Mexico but growing up with immigrant parents they have always told me that not everyone has the opportunity to do things they may wish to do, so it's always right to help others have an opportunity in whatever it may be. I was a part of the student council at my middle school CASA 7th and 8th grade and I used what my parents had taught me about opportunity by helping other students have a voice and sharing their voices when being elected as school president. During this time I had just joined SPEAKHIRE which helped me enhance my knowledge of what I meant by opportunity and how to better my leadership as a school president. However, even after middle school, I continued to use the skills that impacted me the most and continue to be a part of SPEAKHIRE by being part of the Junior Board which I would have never imagined happening but thanks to the opportunity Ms. Hetal had given me I also believe others can have that same opportunity when joining SPEAKHIRE."
+      },
+      {
+        "id": 4,
+        "image": "",
+        "name": "Yann Noumbi",
+        "role": "Junior Board  Member",
+        "description": ""
+      },
+      {
+        "id": 5,
+        "image": "/src/assets/TeamAssets/Hetal_files/Lylia.jpeg",
+        "name": "Lylia Belbegra",
+        "role": "Junior Board  Member",
+        "description": "My name is Lylia Belbegra and I am a sophmore in college. I moved from Algeria to Philadelphia in 2014. SPEAKHIRE has helped me a lot in the years that I have worked with them. I have developed my leadership skills and I’ve become more bold in the pursuit of my dreams. My main goal is to keep improving through the Junior Board and help other girls through their journey to become self-confident leaders. I strongly believe that being confident is the key to take on any challenges and obstacles that come your way. I want to be there and help them as much as I can so they can achieve their goals and finally say, “We made it!"
+      }
+    ]
+  }
+  

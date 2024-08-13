@@ -1,0 +1,109 @@
+{
+    "Mag": [
+        {
+            "id": 1,
+            "image": "/src/assets/MagImages/June+2024.png",
+            "issue": "Issue 24"
+        },
+        {
+            "id": 2,
+            "image": "/src/assets/MagImages/issue20.png",
+            "issue": "Issue 20"
+        },
+        {
+            "id": 3,
+            "image": "/src/assets/MagImages/issue19.png",
+            "issue": "Issue 19"
+        },
+        {
+            "id": 4,
+            "image": "/src/assets/MagImages/issue18.png",
+            "issue": "Issue 18"
+        },
+        {
+            "id": 5,
+            "image": "/src/assets/MagImages/issue17.png",
+            "issue": "Issue 17"
+        },
+        {
+            "id": 6,
+            "image": "/src/assets/MagImages/issue16.png",
+            "issue": "Issue 16"
+        },
+        {
+            "id": 7,
+            "image": "/src/assets/MagImages/issue15.png",
+            "issue": "Issue 15"
+        },
+        {
+            "id": 8,
+            "image": "/src/assets/MagImages/issue14.png",
+            "issue": "Issue 14"
+        },
+        {
+            "id": 9,
+            "image": "/src/assets/MagImages/issue13.jpg",
+            "issue": "issue 13"
+        },
+        {
+            "id": 10,
+            "image": "/src/assets/MagImages/issue12.png",
+            "issue": "Issue 12"
+        },
+        {
+            "id": 11,
+            "image": "/src/assets/MagImages/issue11.jpg",
+            "issue": "/src/assets/MagImages/issue10.png"
+        },
+        {
+            "id": 12,
+            "image": "/src/assets/MagImages/issue9.png",
+            "issue": "Issue 9"
+        },
+        {
+            "id": 13,
+            "image": "/src/assets/MagImages/issue8.jpg",
+            "issue": "Issue 8"
+        },
+        {
+            "id": 14,
+            "image": "/src/assets/MagImages/issue7.jpg",
+            "issue": "Issue 7"
+        },
+        {
+            "id": 15,
+            "image": "/src/assets/MagImages/issue6.png",
+            "issue": "Issue 6"
+        },
+        {
+            "id": 16,
+            "image": "/src/assets/MagImages/issue5.png",
+            "issue": "Issue 5"
+        },
+        {
+            "id": 17,
+            "image": "/src/assets/MagImages/issue4.png",
+            "issue": "Issue 4"
+        },
+        {
+            "id": 18,
+            "image": "/src/assets/MagImages/issue3.png",
+            "issue": "Issue 3"
+        },
+        {
+            "id": 19,
+            "image": "/src/assets/MagImages/issue2.jpg",
+            "issue": "Issue 2"
+        },
+        {
+            "id": 20,
+            "image": "/src/assets/MagImages/issue1.jpg",
+            "issue": "Issue 1"
+        }
+       
+       
+       
+       
+        
+    ]
+}

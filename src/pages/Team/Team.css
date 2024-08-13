@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in width/height */
+}
+
+body {
+    margin: 0; /* Reset default body margin */
+}
+
+.containers {
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding for the container */
+}
+
+.speakhire-team {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #007b98;
+    color: white;
+    width: 100%; /* Full width */
+}
+
+.team-container {
+    padding: 20px;
+}
+
+.junior-board-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.sub-team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    width: 100%; /* Ensure full width of the sub-team */
+}
+
+.sub-team:hover {
+    transform: scale(1.02);
+}
+
+.member-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.member-image {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.member-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.member-details {
+    flex: 1;
+    text-align: left;
+}
+
+.member-details h2 {
+    font-size: 1.5rem;
+    margin: 10px 0 5px;
+}
+
+.member-details h3 {
+    font-size: 1.2rem;
+    color: #007b98;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.member-details p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0 0;
+}
+
+.linkedin-link {
+    color: #007b98;
+    margin: 20px 0 !important; 
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .member-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .member-image img {
+        width: 100%;
+    }
+}
+
+.placeholder-image {
+    width: 150px;
+    height: 150px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    border-radius: 5px;
+}

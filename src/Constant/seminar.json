@@ -1,0 +1,34 @@
+[
+    { "category": "Communication", "topic": "All about emailing!" },
+    { "category": "Communication", "topic": "Present your best self!" },
+    { "category": "Communication", "topic": "Communication Tech Tools" },
+    
+    { "category": "Accountability", "topic": "Managing Time — Yours and Others" },
+    { "category": "Accountability", "topic": "I’m Counting On You! — Taking Initiative" },
+    { "category": "Accountability", "topic": "There Is No I In Team — Collaborate" },
+    { "category": "Accountability", "topic": "Managing Your Money - Creating a Budget" },
+    { "category": "Accountability", "topic": "Managing Up - Be The Employee Your Boss Needs" },
+    { "category": "Accountability", "topic": "Managing Time and Tasks" },
+    
+    { "category": "Initiative", "topic": "Life-Long Learning - Staying Relevant" },
+    { "category": "Initiative", "topic": "Finding the Job" },
+    
+    { "category": "Professionalism", "topic": "Setting Up Your Brand, Social Media and You" },
+    { "category": "Professionalism", "topic": "Getting Past the Interview" },
+    { "category": "Professionalism", "topic": "Why Work Here? - Workplace Culture and Fit" },
+    { "category": "Professionalism", "topic": "At the workplace" },
+    { "category": "Professionalism", "topic": "I Still See You! Professionalism in a virtual setting" },
+    
+    { "category": "Personal Development", "topic": "Resumes that Evolve" },
+    { "category": "Personal Development", "topic": "Mentors, Coaches, Sponsors — Why You Need Them All" },
+    { "category": "Personal Development", "topic": "Building Your Wealth" },
+    { "category": "Personal Development", "topic": "Are you on FIRE: Financial Independence Retire Early" },
+    
+    { "category": "Leadership", "topic": "Planning For Financial Success - Budgeting and Investing" },
+    { "category": "Leadership", "topic": "Strategic Planning - Plan Each Move" },
+    { "category": "Leadership", "topic": "Where are you headed? Vision and Goal-Setting" },
+    { "category": "Leadership", "topic": "Leaders Solve Problems; Conflict Management" },
+    { "category": "Leadership", "topic": "Working together; Understanding Leadership Styles" },
+    { "category": "Leadership", "topic": "Essentials (Integrity, Empathy, Authenticity, Emotional Intelligence, Humility)" }
+  ]
+  

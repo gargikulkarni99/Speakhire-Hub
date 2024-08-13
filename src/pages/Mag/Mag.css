@@ -1,0 +1,162 @@
+/* Base Styles */
+
+.Mag {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #007b98;
+  color: white;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title {
+  color: #08547a;
+  line-height: 1.2;
+  font-size: 3rem;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.latest-issue {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.issue {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.image-container img {
+  width: 50%;
+  height: auto;
+}
+
+.issue-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  transform: translateY(100%);
+}
+
+.sub-issue {
+  text-align: center;
+}
+
+.sub-issue .image-container img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-mag {
+  justify-content: center;
+  margin: 40px 0;
+  align-items: center;
+}
+
+.button-mag a {
+  text-decoration: none;
+  padding: 20px 20px;
+  background-color: #08547a;
+  color: white;
+  border-radius: 6.4px;
+  text-align: center;
+  margin-left: 43%;
+  letter-spacing: 0.32px;
+}
+
+.past-issue {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.8rem;
+  line-height: 1.3;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .issue {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .issue {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .image-container img {
+    max-width: 100%;
+  }
+
+  .button-mag a {
+    margin-left: 0;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .issue {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+
+  .image-container {
+    width: 100%;
+  
+  }
+
+  .image-container img {
+    width: 100%;
+    max-width: 300px !important; 
+   
+    
+  }
+
+  .button-mag a {
+    width: 50%;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .Mag {
+    font-size: 1.5rem;
+  }
+}
