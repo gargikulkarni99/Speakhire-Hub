@@ -8,7 +8,10 @@ import NewsPage from './pages/News/NewsPage';
 import Footer from './Components/Footer/Footer';  
 import Mag from './pages/Mag/Mag';
 import Seminars from './pages/Seminars/Seminars';
-
+import Exploratory from './pages/Exploratory/exploratory';
+import Pathways from './pages/PathwaysDays/Pathway';
+import Mission from './pages/Mission/Mission';
+import Theory from './pages/Theory/Theory';
 const App = () => {
   return (
     <Router>
@@ -20,6 +23,10 @@ const App = () => {
         <Route path="/news" element={<NewsPage />} /> 
         <Route path="/mag" element={<Mag />} /> 
         <Route path="/seminar" element={<Seminars />} />
+        <Route path='/exploratory' element={<Exploratory />} />
+        <Route path='/pathway' element={<Pathways />} />
+        <Route path='/mission' element={<Mission />} />
+        <Route path='/theory' element={<Theory />} />
       </Routes>
       <Footer />
     </Router>

@@ -43,9 +43,9 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                     <Link to="/" onClick={handleLinkClick}>About</Link>
                     {(activeDropdown === 'about' || isClicked) && (
                         <ul className="dropdown">
-                            <li><Link to="/" onClick={handleLinkClick}>Mission</Link></li>
+                            <li><Link to="/mission" onClick={handleLinkClick}>Mission</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Impact</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Theory of Change</Link></li>
+                            <li><Link to="/theory" onClick={handleLinkClick}>Theory of Change</Link></li>
                             <li><Link to="/team" onClick={handleLinkClick}>Team</Link></li> {/* Updated Link */}
                             <li><Link to="/news" onClick={handleLinkClick}>News</Link></li>
                             <li><Link to="/mag" onClick={handleLinkClick}>SPEAKHIRE Mag.</Link></li>
@@ -82,8 +82,8 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                             <li><Link to="/" onClick={handleLinkClick}>Leadership Courses</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Foundational Year</Link></li>
                             <li><Link to="/seminar" onClick={handleLinkClick}>SPEAKHIRE Seminars</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Exploratory Years</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Pathways Days</Link></li>
+                            <li><Link to="/exploratory" onClick={handleLinkClick}>Exploratory Years</Link></li>
+                            <li><Link to="/pathway" onClick={handleLinkClick}>Pathways Days</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>SPEAKHIRE Summit & Soiree</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Symposiums</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>SpeakingMyName</Link></li>
