@@ -1,5 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Router, Routes, Route } from 'react-router-dom';
+import Intern from './pages/Intern';
+import Champions from './pages/Champions';
+import OurMission from './pages/Mission';
+import Impact from './pages/Impact';
+import Theory from './pages/Theory';
 import NavBar from './Components/Navbar/NavBar'; 
 import Team from './pages/Team/Team'; 
 import Home from './Components/Hero/Home'; 
@@ -18,6 +23,11 @@ const App = () => {
       <NavBar /> 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/intern" element={<Intern />} />
+        <Route path="/champions" element={<Champions />} />
+        <Route path="/ourmission" element={<OurMission />} />
+        <Route path="/impact" element={<Impact />} />
+        <Route path="/theory" element={<Theory />} />
         <Route path="/team" element={<Team />} /> 
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/news" element={<NewsPage />} /> 

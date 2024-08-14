@@ -1,0 +1,366 @@
+.blue-section {
+	background-color: #19a6c9;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  .blue-section-left {
+	flex: 1;
+	font-size: larger;
+	margin-left: 150px;
+  }
+  
+  .blue-section-right {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  .apply-btn {
+	background-color: rgb(214, 227, 95);
+	color: #080808;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+	background-color: #686876;
+	color: white;
+  }
+
+ /* Paragraph Section Styles */
+.paragraph-section {
+	background-color: #fff;
+	color: #333;
+	padding: 20px;
+	border-top: 2px solid #3498db;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .paragraph-section p {
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0;
+	max-width: 800px; /* Limits the width of the text */
+	text-align: justify; /* Justifies the text */
+	color:#194c7f;
+  }
+  
+/* New Section Styles */
+.new-section {
+	display: flex;
+	justify-content: center; /* Center the entire section */
+	align-items: center; /* Center the content vertically */
+	padding: 40px 20px;
+	background-color: white; /* White background */
+  }
+  
+  .new-section .left-column {
+	width: 60%; /* Adjust width as needed */
+	text-align: justify; /* Justify text within the left column */
+	padding-right: 20px;
+  }
+  
+  .new-section .right-column {
+	width: 35%; /* Adjust width as needed */
+  }
+  
+  .new-section .left-column h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color:#194c7f;
+  }
+  
+  .new-section .left-column p {
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 1.6;
+  }
+  
+  .new-section .left-column p strong {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .new-section .left-column ul {
+	list-style-type: none; /* Remove bullet points */
+	padding-left: 0; /* Remove default padding */
+  }
+  
+  .new-section .left-column ul li {
+	margin-bottom: 10px;
+  }
+  
+  .new-section .gap {
+	margin: 30px 0; /* Creates space between elements */
+  }
+  
+  .new-section .right-column img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px; /* Optional: adds a subtle border radius to the image */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+	.new-section {
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	}
+  
+	.new-section .left-column,
+	.new-section .right-column {
+	  width: 100%;
+	  padding: 0;
+	}
+  
+	.new-section .left-column {
+	  margin-bottom: 20px;
+	  text-align: justify; /* Ensure text remains justified on smaller screens */
+	}
+  
+	.new-section .right-column img {
+	  max-width: 80%;
+	  margin: 0 auto;
+	}
+  }
+  
+  .button-section {
+	padding: 2rem;
+	background-color: white;
+	margin-top: -1rem; /* Negative margin to move the section up */
+}
+
+.button-section h3 {
+	margin-bottom: 1.5rem;
+	font-size: 2rem;
+	color:#194c7f;
+	text-align: left;
+}
+
+.button-row {
+	display: flex;
+	justify-content: flex-start; /* Align buttons to the left */
+	gap: 1rem; /* Gap between buttons */
+}
+
+.involvement-btn {
+	padding: 0.75rem 1.5rem;
+	background-color: rgb(229, 239, 135);
+	color: black;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.involvement-btn:hover {
+	background-color: whitesmoke;
+}
+
+.b-background {
+    background-color: #194c7f;
+    color: white;
+    padding: 40px 20px;
+}
+
+.cpc-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns the content to the top */
+    gap: 20px;
+}
+
+.cpc-left {
+    flex: 1;
+    text-align: left;
+}
+
+.cpc-left h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cpc-left p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cpc-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Aligns the image to the right */
+    align-items: center; /* Centers the image vertically */
+    text-align: right;
+}
+
+.cpc-right img {
+    max-width: 50%; /* Set the image to be smaller */
+    height: auto;
+}
+.new-section-2 {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.section-header {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.text-content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.text-content p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.image-column {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.image-column img {
+    width: 100px; /* Fixed width for uniform size */
+    height: 100px; /* Fixed height for uniform size */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.image-btn {
+    margin-top: 20px; /* Reduced margin-top for a smaller gap */
+    padding: 8px 16px; /* Adjust padding for a smaller button */
+    background-color:#f5f85e;
+    color:#080808;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.875rem; /* Adjust font size for a smaller button */
+    display: block; /* Ensures the button is displayed as a block element */
+    margin-left: auto; /* Center the button horizontally */
+    margin-right: auto; /* Center the button horizontally */
+}
+
+.image-btn:hover {
+    background-color:aliceblue;
+}
+
+.champ-background-section {
+	background-color:#194c7f; /* Adjust the blue color as needed */
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+  }
+  
+  .champ-background-left {
+	flex: 1;
+	text-align: center;
+	font-weight: bold;
+  }
+  
+  .champ-background-right {
+	flex: 1;
+	text-align: center;
+  }
+  
+  .champ-background-button {
+	background-color:#f5f85e;
+	color:#080808;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  .champ-background-button:hover {
+	background-color: #e0e05d; /* Slightly darker shade of yellow */
+	transform: scale(1.05); /* Slightly scale up the button on hover */
+}
+.image-grid-section {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: adjust as needed */
+}
+
+.image-grid-left {
+    text-align: left; /* Align text to the left */
+    width: 80%; /* Adjust width to slightly center the content */
+    margin-left: 10%; /* Center the content slightly */
+}
+
+.image-grid-left h2 {
+    margin: 0;
+    font-size: 2rem;
+	color:#194c7f;
+    /* Adjust font-size as needed */
+}
+
+.image-grid-left hr {
+    margin: 20px 0 0; /* Adjust margin for spacing */
+    width: 100%; /* Extend the line across the entire section */
+    border: 1px solid #ccc; /* Adjust border color as needed */
+}
+
+.image-grid-right {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; /* Add padding to create a gap */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(10px, 1fr)); /* Creates a grid with 5 columns, with a minimum width of 10px */
+    gap: 20px; /* Space between images */
+}
+
+.image-grid a {
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for hover effects */
+}
+
+.image-grid img {
+    width: 50%; /* Images are 50% of their container's width */
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px; /* Adds rounded corners */
+}
+
+.image-grid a:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
+
+
+
+
+
+
+
+  

@@ -1,0 +1,20 @@
+.blue-section {
+    background-color: #007BFF; /* Blue background */
+    padding: 50px 0; /* Padding for top and bottom */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+  }
+  
+  .left-side {
+    text-align: center; /* Centers the text */
+  }
+  
+  .big-header {
+    font-size: 3rem; /* Adjust the size as needed */
+    color: white; /* Header text color */
+  }
+  
