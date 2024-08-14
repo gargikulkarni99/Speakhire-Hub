@@ -12,7 +12,7 @@ import Footer from './Components/Footer/Footer';
 import Mag from './pages/Mag/Mag';
 import Seminars from './pages/Seminars/Seminars';
 import Exploratory from './pages/Exploratory/exploratory';
-import Pathways from './pages/PathwaysDays/Pathway';
+import Pathway from './pages/PathwaysDays/Pathway';
 import Mission from './pages/Mission/Mission';
 import Theories from './pages/Theory/Theories';
 
@@ -30,7 +30,8 @@ const App = () => {
         <Route path="/mag" element={<Mag />} /> 
         <Route path="/seminar" element={<Seminars />} />
         <Route path='/exploratory' element={<Exploratory />} />
-        <Route path='/pathway' element={<Pathways />} />
+        <Route path='/pathway' element={<Pathway />} />
+
         <Route path='/mission' element={<Mission />} />
         <Route path='/theory' element={<Theories />} />
       </Routes>
