@@ -64,7 +64,7 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                             <li><Link to="/" onClick={handleLinkClick}>Champions</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Interns</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Careers</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Volunteer</Link></li>
+                            <li><Link to="/volunteer" onClick={handleLinkClick}>Volunteer</Link></li>
                         </ul>
                     )}
                 </li>
@@ -85,9 +85,9 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                             <li><Link to="/exploratory" onClick={handleLinkClick}>Exploratory Years</Link></li>
                             <li><Link to="/pathway" onClick={handleLinkClick}>Pathways Days</Link></li>
 
-                            <li><Link to="/" onClick={handleLinkClick}>SPEAKHIRE Summit & Soiree</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Symposiums</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>SpeakingMyName</Link></li>
+                            <li><Link to="/summit" onClick={handleLinkClick}>SPEAKHIRE Summit & Soiree</Link></li>
+                            <li><Link to="/symposiums" onClick={handleLinkClick}>Symposiums</Link></li>
+                            <li><Link to="/speakingmyname" onClick={handleLinkClick}>SpeakingMyName</Link></li>
                         </ul>
                     )}
                 </li>

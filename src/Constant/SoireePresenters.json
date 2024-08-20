@@ -1,0 +1,145 @@
+{
+    "people": [
+      {
+        "id": 1,
+        "name": "Adam Gueye",
+        "school": "HS for Environmental Studies",
+        "text": "Inspiring Leadership Alum, Summer 2023 presents",
+        "image": "/src/assets/Summit/Adam.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Hemeregilda Mejia",
+        "school": "Crotona Int. HS",
+        "text": "Discovering Leadership, Developing Leader Award",
+        "image": "/src/assets/Summit/Hemergilda.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Mennatallah Mahmoud",
+        "school": "I.S 93",
+        "text": "Empowering Leadership Alum, 2022 presents",
+        "image": "/src/assets/Summit/Metab.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Juan Esteban Runza Nieto",
+        "school": "I.S. School 125",
+        "text": "Discovering Leadership, Developing Leader Award",
+        "image": "/src/assets/Summit/Juan.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Leyli Hernandez",
+        "school": "CASA",
+        "text": "Empowering Leadership, 2022, Discovering Leadership, 2022 Fall & Spring, and Inspiring Leadership, Summer 2023 alum presents",
+        "image": "/src/assets/TeamAssets/Hetal_files/Leily.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Alison Aucancela",
+        "school": "Corona Arts & Sciences",
+        "text": "Discovering Leadership, Enlightened Leader Award",
+        "image": "/src/assets/Summit/Alison.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Yiengchuk Dorji",
+        "school": "Int. HS of Health Sciences",
+        "text": "Foundational Year Alum, 2022 presents",
+        "image": "/src/assets/Summit/Dorji.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Jhan Motta",
+        "school": "Int. HS at Union Square",
+        "text": "Foundational Year, Rising Leader Award",
+        "image": "/src/assets/Summit/Jhan.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Alex Aquino",
+        "school": "Claremont International HS",
+        "text": "Foundational Year Alum, 2022 presents",
+        "image": "/src/assets/Summit/Alex.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Maria Castro",
+        "school": "Int. HS at Union Square",
+        "text": "Foundational Year, Shooting Star Award",
+        "image": "/src/assets/Summit/Maria.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Ousmane Diallo",
+        "school": "Emma Lazarus HS",
+        "text": "Foundational Year Alum, 2020 and 2021 presents",
+        "image": "/src/assets/TeamAssets/Hetal_files/ousmanediallo.jpeg"
+      },
+      {
+        "id": 12,
+        "name": "Ismatu Barry",
+        "school": "Int. Community HS Bronx",
+        "text": "Foundational Year, Rising Leader Award",
+        "image": "/src/assets/Summit/Ismatu.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Aliyah Maliq",
+        "school": "Queens Preparatory Academy",
+        "text": "Foundational Year Alum, 2022 and 2023 presents",
+        "image": "/src/assets/Summit/Aliyah+Speech.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Israel Martinez",
+        "school": "Washington Heights Expeditionary Learning School",
+        "text": "Foundational Year, Rising Leader Award",
+        "image": "/src/assets/Summit/Martinez.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Blair Vales",
+        "school": "Queens Preparatory Academy",
+        "text": "Empowering Leadership Alum, 2021, and Foundational Year Alum, 2021 and 2022 presents",
+        "image": "/src/assets/Summit/Blair.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Rana Musleh",
+        "school": "Washington Heights Expeditionary Learning School",
+        "text": "Foundational Year, Rising Leader Award",
+        "image": "/src/assets/Summit/Rana.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Bianka Peña",
+        "school": "Ellis Preparatory HS",
+        "text": "Foundational Year Alum, 2020 and 2021 presents",
+        "image": "/src/assets/Summit/Bianka.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Cristobal Cespedes",
+        "school": "Queens Preparatory Academy",
+        "text": "Foundational Year, Intern of the Year Award",
+        "image": "/src/assets/Summit/Cristobal.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Cristal Davidson",
+        "school": "American History HS",
+        "text": "Foundational Year Alum and Ambassador of the Year 2018 presents",
+        "image": "/src/assets/Summit/Cristal.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Fatou Diedhiou",
+        "school": "ELLIS Preparatory Academy",
+        "text": "Foundational Year, Ambassador of the Year Award",
+        "image": "/src/assets/Summit/Fatou.jpg"
+      }
+    ]
+  }
+  

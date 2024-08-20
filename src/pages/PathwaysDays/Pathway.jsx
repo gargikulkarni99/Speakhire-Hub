@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'; // Import motion from framer-motion
 import Moore from '../../assets/pathways/PD+Monroe.jpg'; // Ensure this path is correct
 import Devin from "../../assets/pathways/Devin.jpg"
 import "./pathways.css";
+import path from '../../assets/pathways/path.png';
 
 const Pathway = () => {
   // Define animation variants
@@ -35,7 +36,7 @@ const Pathway = () => {
           animate={{ opacity: 1 }} // Fade in
           transition={{ duration: 0.5, delay: 0.2 }} // Delay for a smoother effect
         >
-          <img alt="Pathways Scroller" />
+          <img src={path} alt="Pathways Scroller" />
         </motion.div>
         <div className='pathway-days'>
           <motion.div

@@ -1,0 +1,412 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+/* Summit Container */
+.summit-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Summit Header */
+.summit-header {
+  width: 100%;
+  background-color: #08547a;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.summit-header h1 {
+  font-size: 4rem;
+  color: #fcfc79;
+}
+
+.summit-header p {
+  font-size: 1.2rem;
+  margin: 0 auto 20px;
+  color: #fff;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.summit-header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.summit-header ul li {
+  margin: 10px;
+}
+
+.summit-header ul li a {
+  text-decoration: none;
+  color: #007bff;
+  background-color: #fff;
+  padding: 8px 15px;
+  letter-spacing: 0.3px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+/* Slider */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.slider {
+  display: inline-block;
+  animation: scroll 30s linear infinite;
+}
+
+.slider span {
+  display: inline-block;
+  font-size: 2rem;
+  color: #333;
+  margin: 0 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Video Container */
+.video-container {
+  width: 60%;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+
+/* Summit Content */
+.summit-content {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.summit-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #08547a;
+}
+
+.summit-content h4 {
+  color: #08547a;
+}
+
+/* Image Container */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.image-container .person-card {
+  text-align: center;
+  width: 100%;
+  max-width: 250px; /* Increased width */
+}
+
+.image-container img {
+  width: 100px; /* Increased size */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Soiree Content */
+.soiree-content {
+  padding: 20px;
+  margin: 0 auto;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.soiree-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #08547a;
+}
+
+.soiree-content h5 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #08547a;
+}
+
+.soiree-content h6 {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #08547a;
+}
+
+.soiree-content img {
+  width: 150px; /* Increased size */
+  height: 150px;
+  border-radius: 50%;
+}
+
+.soiree-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.soiree-content ul li img {
+  width: 100px; /* Increased size */
+  height: 100px;
+  object-fit: cover;
+}
+
+.soiree-content ul li h6 {
+  margin: 0;
+}
+
+/* People List */
+.people-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.person-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.person-cards img {
+  width: 100px; /* Increased size */
+  height: auto;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.person-cards h3 {
+  color: #08547a;
+}
+
+.person-cards p {
+  margin: 0;
+}
+
+/* Celebration */
+.celebration h5 {
+  margin: 20px 0;
+}
+
+/* Our Heros */
+.our-heros h1,
+h3 {
+  color: #08547a;
+}
+
+/* Foundation */
+.foundation {
+  color: #08547a;
+  margin: 20px;
+  text-align: center;
+}
+
+.foundation h1 {
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .summit-header h1 {
+    font-size: 3rem;
+  }
+
+  .summit-header p {
+    width: 80%;
+  }
+
+  .slider span {
+    font-size: 1.5rem;
+  }
+
+  .summit-content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .summit-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .summit-header p {
+    width: 90%;
+  }
+
+  .slider span {
+    font-size: 1.5rem;
+  }
+
+  .summit-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .person-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .person-cards img {
+    width: 100px; /* Increased size */
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .image-container .person-card {
+    width: 100%;
+    max-width: 250px; /* Increased width */
+  }
+
+  .video-container iframe {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .summit-header h1 {
+    font-size: 2rem;
+  }
+
+  .summit-header p {
+    width: 90%;
+  }
+
+  .slider span {
+    font-size: 1.5rem;
+  }
+
+  .summit-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .soiree-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .soiree-content h5 {
+    font-size: 1.2rem;
+  }
+
+  .soiree-content h6 {
+    font-size: 1rem;
+  }
+
+  .soiree-content img {
+    width: 120px; /* Increased size */
+    height: 120px;
+  }
+}
+
+@media (max-width: 490px) {
+  body {
+    text-align: center;
+    padding: 0 10px; /* Add padding to center content */
+  }
+
+  .summit-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .summit-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .summit-header p {
+    width: 100%; /* Adjust width */
+  }
+
+  .slider span {
+    font-size: 1.2rem;
+  }
+
+  .summit-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .video-container iframe {
+    height: 300px;
+  }
+
+  .image-container .person-card {
+    max-width: 100%;
+  }
+
+  .person-cards {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+ 
+}

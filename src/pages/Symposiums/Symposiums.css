@@ -1,0 +1,232 @@
+.Symposiums-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Symposiums-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    background-color: #007b98;
+    padding: 0 20px;
+    border-radius: 8px;
+  }
+  
+  .Symposiums-header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .Symposiums-header a {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background-color: #fcfc79;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  .Symposiums-header a:hover {
+    color: #0056b3;
+  }
+  
+ 
+  .Symposiums {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .sub-symposiums {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .sub-symposiums p {
+    line-height: 40.7232px;
+    font-weight: 200;
+  }
+  .sub-symposiums img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .sub-symposiums ul {
+    margin-left: 30px;
+    color: #007b98;
+    font-size: 14px;
+  }
+
+  .symposiums-designed {
+    margin-top: 4rem;
+    text-align: center;
+   
+  }
+  
+  .symposiums-designed h1 {
+    font-size: 2rem;
+    color: #007b98;
+    margin-bottom: 1rem;
+
+  }
+  
+  .development {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    
+
+  }
+
+  .symposiums-designed p {
+    color: #007b98;
+  }
+  .sub-development a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+  }
+  .development p {
+    color: #007b98;
+  }
+  .sub-development a:hover {
+    color: #0056b3;
+  }
+  
+  .sub-development ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    
+    
+  }
+  
+  .sub-development ul li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    color: #007b98;
+  }
+  
+  /* Educator Section */
+  .educator {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    background-color: #08547a;
+    padding: 100px 10px;
+    border-radius: 8px;
+    
+  }
+  
+  .sub-educator p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .sub-educator h5 {
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+  }
+  
+  .sub-educator a {
+    font-size: 0.875rem;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10rem;
+    background-color: #fcfc79;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  .sub-educator a:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .Symposiums-header {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .Symposiums-header h1 {
+      font-size: 2rem;
+    }
+  
+    .Symposiums {
+      grid-template-columns: 1fr;
+    }
+  
+    .development {
+      grid-template-columns: 1fr;
+    }
+  
+    .educator {
+      grid-template-columns: 1fr;
+    }
+  
+    .symposiums-designed h1 {
+      font-size: 1.75rem;
+    }
+    
+    .sub-development a {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Symposiums-container {
+      padding: 1rem;
+    }
+  
+    .Symposiums-header h1 {
+      font-size: 1.75rem;
+    }
+  
+    .Symposiums-header a {
+      font-size: 0.9rem;
+    }
+  
+    .symposiums-designed h1 {
+      font-size: 1.5rem;
+    }
+    
+    .sub-development a {
+      font-size: 1rem;
+    }
+  
+    .sub-symposiums {
+      padding: 1rem;
+    }
+  
+    .sub-educator p {
+      font-size: 0.9rem;
+    }
+  
+    .sub-educator h5 {
+      font-size: 0.9rem;
+    }
+  
+    .sub-educator a {
+      font-size: 0.8rem;
+    }
+    .Symposiums-header a {
+        margin-bottom: 20px;
+    }
+    .sub-educator a {
+        margin-top: 5px;
+    }
+  }
+  

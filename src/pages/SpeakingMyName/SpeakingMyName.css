@@ -1,0 +1,302 @@
+/* General Styling */
+.SpeakingMyName-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Name Container Styling */
+.myName-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 65.68px;
+    line-height: 80.9178px;
+    margin-bottom: 30px;
+}
+
+.myName-container {
+    background-color: #08547a;
+    line-height: 28.8px;
+    padding: 150px;
+}
+
+.myName-container h3 {
+    font-size: 35.872px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    line-height: 47.8102px;
+}
+
+.myName-container p {
+    font-size: 22.624px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 40.7232px;
+    color: #fff;
+    opacity: 70%;
+}
+
+.myName-container a {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background-color: #fcfc79;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.myName-container .button-campaign {
+    text-align: center;
+}
+
+/* Quote Styling */
+.quote {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.quote h6 {
+    font-size: 19.312px;
+    font-style: italic;
+    margin-bottom: 10px;
+    line-height: 26.8205px;
+    color: #08547a;
+}
+
+.quote h2 {
+    font-size: 45.808px;
+    margin-bottom: 20px;
+    line-height: 59.5138px;
+    color: #08547a;
+}
+
+.quote p {
+    font-size: 16px;
+    line-height: 28.8px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.quote h5 {
+    font-size: 22.624px;
+    line-height: 40.7232px;
+    font-weight: 200;
+}
+
+/* Hetal Container Styling */
+.hetal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sub-hetal {
+    flex: 1;
+    margin: 10px;
+}
+
+.sub-hetal img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub-hetal h1 {
+    font-size: 45.808px;
+    margin-bottom: 10px;
+    line-height: 59.5138px;
+}
+
+.sub-hetal p {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 28.8px;
+    font-weight: 200;
+}
+
+.sub-hetal button {
+    background-color: #08547a;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Video Grid System */
+.videos-container {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.sub-videos {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.sub-videos h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Campaign Partner Styling */
+.Campaign {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.Campaign-Partner {
+    background-color: #08547a;
+    padding: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.Campaign-Partner h2 {
+    margin: 20px 0;
+    font-size: 45.808px;
+    line-height: 59.5138px;
+    color: #f9f9f9;
+}
+
+.Campaign-Partner h6 {
+    font-size: 19.312px;
+    line-height: 26.8205px;
+    color: #f9f9f9;
+}
+
+.Campaign-Partner a {
+    color: #fcfc79;
+}
+
+.Campaign a {
+    background-color: #fcfc79;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Partner Organization Styling */
+.partner-org {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 0;
+}
+
+.sub-partner-org {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.sub-partner-org img {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    width: 1200px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .myName-container {
+        padding: 100px;
+    }
+
+    .Campaign-Partner {
+        padding: 70px;
+    }
+}
+
+@media (max-width: 900px) {
+    .videos-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .partner-org {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .myName-container {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .myName-container h1 {
+        font-size: 2rem;
+    }
+
+    .hetal-container {
+        flex-direction: column;
+    }
+
+    .Campaign-Partner h2 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .videos-container {
+        grid-template-columns: 1fr;
+    }
+
+    .partner-org {
+        grid-template-columns: 1fr;
+    }
+
+    .myName-container {
+        padding: 1rem;
+    }
+
+    .Campaign-Partner {
+        padding: 50px;
+    }
+
+    .quote h2, 
+    .sub-hetal h1, 
+    .Campaign-Partner h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .SpeakingMyName-container {
+        padding: 1rem;
+    }
+    .Campaign {
+        text-align: center;
+    }
+
+    .myName-container h1 {
+        font-size: 1.75rem;
+    }
+
+    .myName-container a {
+        font-size: 0.9rem;
+    }
+
+    .Campaign-Partner h2 {
+        font-size: 1.5rem;
+    }
+
+    .sub-hetal h1 {
+        font-size: 1.25rem;
+    }
+}

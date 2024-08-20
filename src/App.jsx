@@ -15,7 +15,11 @@ import Exploratory from './pages/Exploratory/exploratory';
 import Pathway from './pages/PathwaysDays/Pathway';
 import Mission from './pages/Mission/Mission';
 import Theories from './pages/Theory/Theories';
-
+import Symposiums from "./pages/Symposiums/Symposiums"
+import SpeakingMyName from "./pages/SpeakingMyName/SpeakingMyName"
+import Summit from './pages/Summit/Summit';
+import Volunteer from './pages/Volunteer/Volunteer';
+import Careers from './pages/Volunteer/careers';
 const App = () => {
   return (
     <Router>  {/* Use BrowserRouter instead of Router */}
@@ -34,6 +38,11 @@ const App = () => {
 
         <Route path='/mission' element={<Mission />} />
         <Route path='/theory' element={<Theories />} />
+        <Route path='/symposiums' element={<Symposiums />} />
+        <Route path='/summit' element={<Summit />} />
+        <Route path='/volunteer' element={<Volunteer />} />
+        <Route path='/careers' element={<Careers />} />
+        <Route path='/speakingmyname' element={<SpeakingMyName />} />
       </Routes>
       <Footer />
     </Router>
