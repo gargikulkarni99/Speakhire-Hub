@@ -1,0 +1,134 @@
+.blue-section-career {
+	background-color: #19a6c9;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+  
+.blue-section-left {
+	flex: 1;
+	font-size: larger;
+	margin-left: 300px;
+	font-weight: bolder;
+}
+  
+.title-career {
+	color: white;
+	font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description-career {
+	color: rgb(244, 244, 106);
+}
+
+
+.app-container-career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .header-career {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header-career h1 {
+    font-size: 2.5rem;
+  }
+  
+  .roles-career {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .role-career {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 48%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .role-career h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .role-career p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .learn-more-career {
+    background-color: #08547a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .learn-more-career:hover {
+    background-color: #08547a;
+  }
+  
+  /* Styles for the link */
+.apply-now-link {
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  /* Styles for the button */
+  .apply-now {
+    background-color: #08547a; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Spacing inside button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-bottom: 20px;
+  }
+  
+  /* Button hover effect */
+  .apply-now:hover {
+    background-color: #08547a; /* Darker shade of primary color */
+  }
+
+  .images-section-career {
+    padding: 20px;
+    background-color: #f4f4f4; /* Adjust as needed */
+    
+}
+
+.images-row-career {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling if images overflow */
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+.career-image {
+    width: calc(100% / 17); /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Ensures images stay in a line */
+    margin: 0; /* Remove margins if images are too spaced out */
+}
+
+
+  
+  

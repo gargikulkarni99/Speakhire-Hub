@@ -44,7 +44,7 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                     {(activeDropdown === 'about' || isClicked) && (
                         <ul className="dropdown">
                             <li><Link to="/mission" onClick={handleLinkClick}>Mission</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Impact</Link></li>
+                            <li><Link to="/impact" onClick={handleLinkClick}>Impact</Link></li>
                             <li><Link to="/theory" onClick={handleLinkClick}>Theory of Change</Link></li>
                             <li><Link to="/team" onClick={handleLinkClick}>Team</Link></li> {/* Updated Link */}
                             <li><Link to="/news" onClick={handleLinkClick}>News</Link></li>
@@ -61,9 +61,9 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                     {(activeDropdown === 'getInvolved' || isClicked) && (
                         <ul className="dropdown">
                             <li><Link to="/" onClick={handleLinkClick}>Partner Schools and Orgs</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Champions</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Interns</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Careers</Link></li>
+                            <li><Link to="/champions" onClick={handleLinkClick}>Champions</Link></li>
+                            <li><Link to="/intern" onClick={handleLinkClick}>Interns</Link></li>
+                            <li><Link to="/careers" onClick={handleLinkClick}>Careers</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Volunteer</Link></li>
                         </ul>
                     )}
@@ -76,11 +76,11 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                     <Link to="/" onClick={handleLinkClick}>Activities</Link>
                     {(activeDropdown === 'activities' || isClicked) && (
                         <ul className="dropdown">
-                            <li><Link to="/" onClick={handleLinkClick}>All Activities</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Speakhire Series</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>First Step</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Leadership Courses</Link></li>
-                            <li><Link to="/" onClick={handleLinkClick}>Foundational Year</Link></li>
+                            <li><Link to="/activities" onClick={handleLinkClick}>All Activities</Link></li>
+                            <li><Link to="/series" onClick={handleLinkClick}>Speakhire Series</Link></li>
+                            <li><Link to="/firststep" onClick={handleLinkClick}>First Step</Link></li>
+                            <li><Link to="/leadership" onClick={handleLinkClick}>Leadership Courses</Link></li>
+                            <li><Link to="/foundationalyear" onClick={handleLinkClick}>Foundational Year</Link></li>
                             <li><Link to="/seminar" onClick={handleLinkClick}>SPEAKHIRE Seminars</Link></li>
                             <li><Link to="/exploratory" onClick={handleLinkClick}>Exploratory Years</Link></li>
                             <li><Link to="/pathways" onClick={handleLinkClick}>Pathways Days</Link></li>

@@ -1,0 +1,178 @@
+.blue-section {
+	background-color: #19a6c9;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  .blue-section-left {
+	flex: 1;
+	font-size: larger;
+	margin-left: 200px;
+    font-weight: bolder;
+  }
+  
+  .blue-section-right {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  .apply-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 300px;
+}
+
+.apply-btn:hover {
+    background-color: #004494;
+}
+
+  .paragraph-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.paragraph-content-main {
+    width: 80%;
+    text-align:justify;
+}
+
+.paragraph-content-main p {
+    margin: 0;
+    line-height: 1.6;
+    margin-left: 300px;
+}
+
+.youtube-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 300px;
+}
+
+.youtube-link:hover {
+    text-decoration: underline;
+}
+
+.three-column-section {
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 10px; /* Reduced gap between columns */
+}
+
+.column {
+    width: 5px; /* Reduced width for smaller columns */
+    text-align: center;
+}
+
+.column img {
+    width: 50%; /* Reduced image size */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.column h3 {
+    font-size: 1.2em; /* Slightly reduced font size to match the smaller column */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.column p {
+    margin-bottom: 15px; /* Reduced margin below paragraph */
+    line-height: 1.5;
+    font-size: 0.9em; /* Reduced font size */
+}
+
+.youtube-link-btn {
+    display: inline-block;
+    padding: 8px 16px; /* Reduced button size */
+    background-color: #08547a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px; /* Reduced font size for button text */
+}
+
+.youtube-link-btn:hover {
+    background-color: #004494; /* Adjusted hover color */
+}
+
+
+.blue-background-section {
+    background-color: #08547a;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blue-background-section .column {
+    width: 30%;
+    text-align: center;
+    box-shadow: none;
+    background-color: #08547a;
+}
+
+.blue-background-section p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    color:black;
+}
+
+.blue-background-section h3 {
+    font-size: 1.3em;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.image-row-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-row img {
+    width: 7%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.centered-button {
+    margin-top: 20px;
+}
+
+.youtube-link-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ebfc6c;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.youtube-link-btn:hover {
+    background-color: #ebfc6c;
+}

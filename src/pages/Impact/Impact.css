@@ -1,0 +1,173 @@
+.section-container {
+    align-items: center;
+    padding: 20px;
+    height: 50%; /* Adjust as needed */
+}
+
+.left-side {
+    flex: 1;
+}
+
+.header {
+    color: white;
+    text-align: justify;
+    margin-left: 20px; /* Adjust the value to move the header text to the right */
+}
+
+.impact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-column, .middle-column {
+    flex: 1;
+    text-align: center;
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-header {
+    color: #009fe3; /* Adjust color as needed */
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.bold-number {
+    font-weight: bold;
+  }
+
+.column-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.blue-box-main {
+    background-color: #1c7ea5; /* Adjust color as needed */
+    padding: 40px;
+    text-align: center;
+    color: white;
+    max-width: 70%;
+}
+
+.box-paragraph-main {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color:white;
+}
+
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color:#0073b1;
+  }
+  
+  .stat-item {
+    text-align: center;
+    flex: 1;
+    margin: 0 1rem;
+  }
+  
+  .stat-item h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .stat-item p {
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+  }
+  
+  /* Optional: Add responsiveness */
+  @media (max-width: 768px) {
+    .stats-section {
+      flex-direction: column;
+    }
+  
+    .stat-item {
+      margin-bottom: 1rem;
+    }
+  }
+
+
+  .testimonial-card {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.testimonial-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    flex: 1;
+}
+
+.testimonial-quote {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.testimonial-author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0073b1;
+}
+
+
+.video-section {
+    background-color: #0073b1;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.videos-header-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.videos-header {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.videos-column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videos-column .video-container {
+    width: 300px;
+}

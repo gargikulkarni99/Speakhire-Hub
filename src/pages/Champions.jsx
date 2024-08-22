@@ -72,7 +72,7 @@ const Champions = () => {
 				</div>
 			</section>
 			<section className="cpc-section b-background">
-				<div className="cpc-left">
+				<div className="cpc-left-main">
 					<h1>Why become a CPC?</h1>
 					<p>Support a young person’s career pathway, prepare them for their future career, and empower them toward life success. In return, advance your social network and gain a potential volunteer or intern. Learn more about SPEAKHIRE in this video.</p>
 				</div>
@@ -81,7 +81,7 @@ const Champions = () => {
 				</div>
 			</section>
 			<section className="new-section-2">
-				<h2 className="section-header">Other Ways to Help</h2>
+				<h2 className="section-header-main">Other Ways to Help</h2>
 				<div className="text-content">
 					<p>
 						Our virtual sessions are designed to make coaching flexible and convenient. However, we understand if coaching is not possible for you at the moment. There are always more ways to help, such as donating and supporting SPEAKHIRE. You can set up company matching donations to support internship rounds at SPEAKHIRE. 
@@ -105,8 +105,8 @@ const Champions = () => {
         			</div>
     			</div>
 			</section>
-			<section className="champ-background-section">
-				<div className="champ-background-left">
+			<section className="champ-background-section-main">
+				<div className="champ-background-left-main">
 					<h1>Ready to be a Champion?</h1>
 				</div>
 				<div className="champ-background-right">

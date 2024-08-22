@@ -14,7 +14,15 @@ import Seminars from './pages/Seminars/Seminars';
 import Exploratory from './pages/Exploratory/exploratory';
 import Pathways from './pages/PathwaysDays/Pathway';
 import Mission from './pages/Mission/Mission';
-import Theories from './pages/Theory/Theories';
+import Theory from './pages/Theory/Theory';
+import Impact from './pages/Impact/Impact';
+import Series from './pages/Series/Series';
+import FirstStep from './pages/FirstStep/FirstStep';
+import Activities from './pages/Activities/Activities';
+import Leadership from './pages/Leadership/Leadership';
+import Foundational from './pages/Foundational/Foundational';
+import Careers from './pages/Careers/Careers';
+
 
 const App = () => {
   return (
@@ -32,7 +40,14 @@ const App = () => {
         <Route path='/exploratory' element={<Exploratory />} />
         <Route path='/pathway' element={<Pathways />} />
         <Route path='/mission' element={<Mission />} />
-        <Route path='/theory' element={<Theories />} />
+        <Route path='/theory' element={<Theory />} />
+        <Route path='/impact' element={<Impact />} />
+        <Route path='/series' element={<Series />} />
+        <Route path='/firststep' element={<FirstStep />} />
+        <Route path='/activities' element={<Activities />} />
+        <Route path='/leadership' element={<Leadership />} />
+        <Route path='/foundationalyear' element={<Foundational />} />
+        <Route path='/careers' element={<Careers />} />
       </Routes>
       <Footer />
     </Router>
