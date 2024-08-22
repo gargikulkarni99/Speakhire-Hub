@@ -1,0 +1,154 @@
+.Administrator-container {
+    padding: 20px;
+  }
+  
+  .Administrator-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #007b98;
+    padding: 10px 10px;
+  }
+  
+  .Administrator-inline h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  
+  .Administrator-inline a {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #fcfc79;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .Administrator-inline a:hover {
+    background-color: #d6d666;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .Series-administrator {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .sub-series {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: start;
+  }
+  
+  .sub-series h3 {
+    font-size: 25px;
+  }
+  
+  .sub-series p {
+    font-weight: 200;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .Administrator-inline {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .Administrator-inline h1 {
+      font-size: 1.5rem;
+    }
+  
+    .Administrator-inline a {
+      margin: 10px 0 0 0;
+      padding: 10px 15px;
+    }
+  
+    .Series-administrator {
+      grid-template-columns: 1fr;
+    }
+  
+    .sub-series {
+      text-align: left;
+    }
+  
+    .sub-series h3 {
+      font-size: 22px;
+    }
+  
+    .sub-series p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Administrator-inline h1 {
+      font-size: 1.3rem;
+    }
+  
+    .Administrator-inline a {
+      padding: 8px 12px;
+    }
+  
+    .sub-series h3 {
+      font-size: 20px;
+    }
+  
+    .sub-series p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Administrator-container {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .Administrator-inline {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 40px;
+      text-align: center;
+      margin-left: 15px;
+    }
+  
+    .Administrator-inline h1 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .Administrator-inline a {
+      margin-top: 10px;
+      padding: 8px 10px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .Series-administrator {
+      grid-template-columns: 1fr;
+      justify-items: center; 
+    }
+  
+    .sub-series {
+      text-align: center;
+      width: 100%; 
+    }
+  
+    .sub-series h3 {
+      font-size: 18px;
+    }
+  
+    .sub-series p {
+      font-size: 13px;
+    }
+  }
+  

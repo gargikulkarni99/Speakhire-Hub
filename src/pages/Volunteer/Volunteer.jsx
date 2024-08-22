@@ -37,7 +37,7 @@ const Volunteer = () => {
         >
           <h3>Speaker Series Administrator (SSA)</h3>
           <p>Speaker Series Administrator (SSA) is integral to the operations of our Speaker Series program. The position of SSA ensures all effective communication and coordination of the Speaker Series program.</p>
-          <a href='#'>Learn more</a>
+          <a href='/administrator'>Learn more</a>
           <a href='#' className='apply'>Apply Now</a>
         </motion.div>
       </div>

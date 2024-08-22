@@ -20,6 +20,8 @@ import SpeakingMyName from "./pages/SpeakingMyName/SpeakingMyName"
 import Summit from './pages/Summit/Summit';
 import Volunteer from './pages/Volunteer/Volunteer';
 import Careers from './pages/Volunteer/careers';
+import Administrator from './pages/Volunteer/Administrator';
+import PartnerSchools from './pages/PartnerSchools/PartnerSchools';
 const App = () => {
   return (
     <Router>  {/* Use BrowserRouter instead of Router */}
@@ -35,7 +37,7 @@ const App = () => {
         <Route path="/seminar" element={<Seminars />} />
         <Route path='/exploratory' element={<Exploratory />} />
         <Route path='/pathway' element={<Pathway />} />
-
+         <Route path='/administrator' element={<Administrator />} />
         <Route path='/mission' element={<Mission />} />
         <Route path='/theory' element={<Theories />} />
         <Route path='/symposiums' element={<Symposiums />} />
@@ -43,6 +45,7 @@ const App = () => {
         <Route path='/volunteer' element={<Volunteer />} />
         <Route path='/careers' element={<Careers />} />
         <Route path='/speakingmyname' element={<SpeakingMyName />} />
+        <Route path='/partners' element={<PartnerSchools />} />
       </Routes>
       <Footer />
     </Router>

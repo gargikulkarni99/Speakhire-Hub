@@ -60,7 +60,7 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                     <Link to="/" onClick={handleLinkClick}>Get Involved</Link>
                     {(activeDropdown === 'getInvolved' || isClicked) && (
                         <ul className="dropdown">
-                            <li><Link to="/" onClick={handleLinkClick}>Partner Schools and Orgs</Link></li>
+                            <li><Link to="/partners" onClick={handleLinkClick}>Partner Schools and Orgs</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Champions</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Interns</Link></li>
                             <li><Link to="/" onClick={handleLinkClick}>Careers</Link></li>

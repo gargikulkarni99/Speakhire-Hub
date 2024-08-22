@@ -1,0 +1,139 @@
+.partner-school {
+    margin: 20px;
+  }
+  
+  .partner-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .partner-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .partner-container a {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .partner-container a:hover {
+    background-color: #0056b3;
+  }
+  
+  .school, .feedback ul, .student-success ul, .school-orgs, .org {
+    display: grid;
+    gap: 20px;
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .school {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center; /* Center the grid items */
+    margin-bottom: 40px;
+  }
+  
+  .feedback ul, .student-success ul {
+    grid-template-columns: 1fr;
+    justify-content: center; /* Center the grid items */
+  }
+  
+  .feedback img, .student-success img {
+    max-width: 100px;
+    margin-right: 10px;
+    float: left;
+  }
+  
+  .school-orgs {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center; /* Center the grid items */
+    margin-bottom: 40px;
+  }
+  
+  .org {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    justify-content: center; /* Center the grid items */
+    margin-top: 20px;
+  }
+  
+  .sub-school, .sub-orgs {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto; /* Center the block horizontally */
+    max-width: 800px; /* Optional: set a max-width to avoid stretching */
+  }
+  
+  .sub-school img, .sub-orgs img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .sub-school h4, .sub-orgs h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .sub-school p, .sub-orgs p {
+    font-size: 1rem;
+  }
+  
+  .sub-school a, .sub-orgs a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .sub-school a:hover, .sub-orgs a:hover {
+    text-decoration: underline;
+  }
+  
+  .org img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .org img:hover {
+    transform: scale(1.1);
+  }
+  
+  .feedback p, .student-success p {
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .feedback span, .student-success h2 {
+    font-style: italic;
+  }
+  
+  .feedback ul, .student-success ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feedback ul li, .student-success ul li {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
