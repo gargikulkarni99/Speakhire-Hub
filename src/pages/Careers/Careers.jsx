@@ -60,14 +60,40 @@ const Careers = () => {
 
       <div className="roles-career">
         <div className="role-career">
+          <h2>Champion Relations Associate (CRA)</h2>
+          <p>The Champion Relations Associate (CRA) reports to the Champion Experience Manager and works in collaboration with the Programs Coordinator to help manage and support Champions through SPEAKHIRE programs.</p>
+          <a href="/champion-relations" className="learn-more-career">Learn More</a>
+        </div>
+        <div className="role-career">
+          <h2>Champion Experience Manager (CEM)</h2>
+          <p>The Champions Experience Manager (CEM) plays a key role in the building and supporting our Champions community. Champions are professionals who volunteer to support the development of the young people we work with at SPEAKHIRE.</p>
+          <a href="/champion-experience-manager" className="learn-more-career">Learn More</a>
+        </div>
+      </div>
+
+      <div className="roles-career">
+        <div className="role-career">
+          <h2>Program Coordinator (PC)</h2>
+          <p>The Program Coordinator PC reports to the Executive Director and works in collaboration with the CRA, Leadership Course Facilitators, and program implementation partners to implement our programs across all of our sites.</p>
+          <a href="/program-coordinator" className="learn-more-career">Learn More</a>
+        </div>
+        <div className="role-career">
+          <h2>Lead Software Engineer (Tech Lead)</h2>
+          <p>The Lead Software Engineer or Tech Lead will build out an end-to-end career counseling platform, which will play a very important part to drive forward its mission of getting young people the right coaching, counseling and professional support for career growth.</p>
+          <a href="/lead-software-engineer" className="learn-more-career">Learn More</a>
+        </div>
+      </div>
+
+      <div className="roles-career">
+        <div className="role-career">
           <h2>Career Pathways Facilitator (CPF)</h2>
           <p>SPEAKHIRE's Career Pathways Facilitators (CPF) will deliver our Empowering Leadership and Discovering Leadership courses, which are 10 workshops, each teaching a leadership skill, to a group of up to 20 or 30 participants. They will support participants' understanding of each session's case study, facilitating small and large group discussions and activities. They will also be responsible for data collection and reporting.</p>
-          <button className="learn-more-career">Learn More</button>
+          <a href="/career-pathways-facilitator" className="learn-more-career">Learn More</a>
         </div>
         <div className="role-career">
           <h2>Speakhire Series Administrator (SSA)</h2>
           <p>The SSA ensures the organization is meeting its Speaker Series programming goals, and developing and leveraging the Speaker Series program in other areas of the organization. The SSA will be able to recruit and engage all speakers in the cohort leading to successful Speaker Series events throughout the year. Please note this is a VOLUNTEER position.</p>
-          <button className="learn-more-career">Learn More</button>
+          <a href="/speakhire-series-administrator" className="learn-more-career">Learn More</a>
         </div>
       </div>
 
@@ -75,14 +101,15 @@ const Careers = () => {
         <div className="role-career">
           <h2>Director of Programs and Operations</h2>
           <p>DPO develops strategy and roadmap for our operations and various programs and also oversee the successful implementation of the strategy. This is an exciting opportunity to work closely with the Executive Director to improve the efficiency of our operations and drive greater outcomes across the organization.</p>
-          <button className="learn-more-career">Learn More</button>
+          <a href="/director-of-programs-and-operations" className="learn-more-career">Learn More</a>
         </div>
         <div className="role-career">
           <h2>Operations Coordinator (OC)</h2>
           <p>For the 2023 - 2024 academic year, SPEAKHIRE will be working with students in various metropolitan areas. Our network of professionals, called Champions, come from across the nation and other parts of the world. Operations Coordinator will be responsible for supporting oversight of operations, which include both program, communications, administrative, and technological, to ensure the organization and Speakhire programs thrive. The OC will coordinate progress with different project leads on progress of all operations.</p>
-          <button className="learn-more-career">Learn More</button>
+          <a href="/operations-coordinator" className="learn-more-career">Learn More</a>
         </div>
       </div>
+
 
       <a href="https://speakhire.typeform.com/to/dHWxc3pF?typeform-source=speakhire.org" className="apply-now-link">
   <button className="apply-now">Apply Now</button>

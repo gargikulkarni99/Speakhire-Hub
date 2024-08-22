@@ -48,44 +48,56 @@
   .roles-career {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    width: 80%;
-    max-width: 1200px;
+    gap: 20px;
   }
   
   .role-career {
-    background-color: #fff;
-    border-radius: 10px;
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid #ddd;
     padding: 20px;
-    margin-bottom: 20px;
-    width: 48%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
   }
   
-  .role-career h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
-  }
-  
-  .role-career p {
-    line-height: 1.6;
+  h2 {
+    font-size: 1.5em;
     margin-bottom: 10px;
   }
   
-  .learn-more-career {
-    background-color: #08547a;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  p {
+    font-size: 1em;
+    margin-bottom: 20px;
   }
   
-  .learn-more-career:hover {
-    background-color: #08547a;
-  }
+  /* Styles for buttons with the class .learn-more-career */
+.learn-more-career {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1em;
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border: 1px solid #08547a;
+  border-radius: 5px;
+  background-color: #08547a; /* Background color */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover state for .learn-more-career */
+.learn-more-career:hover {
+  background-color: whitesmoke; /* Hover background color */
+  color: #08547a; /* Hover text color */
+}
+
+/* Optional: focus state for accessibility */
+.learn-more-career:focus {
+  outline: 2px solid #08547a;
+  outline-offset: 2px;
+}
+
+
+  
   
   /* Styles for the link */
 .apply-now-link {
@@ -102,7 +114,8 @@
     font-size: 16px; /* Font size */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s; /* Smooth transition for hover effect */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
   }
   
   /* Button hover effect */
