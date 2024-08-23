@@ -1,20 +1,18 @@
 /* Base Styles */
 
-.Mag {
+.MagContainer {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  margin: 0;
+  margin: 0 auto;
   padding: 20px 0;
   background-color: #007b98;
   color: white;
   position: relative;
-  width: 100vw;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
 }
 
-.title {
+.MagTitle {
   color: #08547a;
   line-height: 1.2;
   font-size: 3rem;
@@ -22,30 +20,32 @@
   margin: 30px 0;
 }
 
-.latest-issue {
+.MagLatestIssue {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.issue {
+.MagIssues {
   margin: 40px 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
-.image-container {
+.MagImageContainer {
   position: relative;
   overflow: hidden;
   padding: 0;
+  max-width: 500px;
+  margin: 0 auto; /* Center the container */
 }
 
-.image-container img {
-  width: 50%;
+.MagImageContainer img {
+  width: 100%;
   height: auto;
 }
 
-.issue-text {
+.MagIssueText {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -57,39 +57,41 @@
   transform: translateY(100%);
 }
 
-.sub-issue {
+.MagSubIssue {
   text-align: center;
 }
 
-.sub-issue .image-container img {
+.MagSubIssue .MagImageContainer img {
   width: 100%;
   max-width: 150px;
   height: auto;
 }
 
-.button {
+.MagButtonContainer {
   text-align: center;
   margin-top: 20px;
 }
 
-.button-mag {
+.MagButtonWrapper {
   justify-content: center;
   margin: 40px 0;
   align-items: center;
 }
 
-.button-mag a {
+.MagButtonWrapper a {
   text-decoration: none;
-  padding: 20px 20px;
+  padding: 20px;
   background-color: #08547a;
   color: white;
   border-radius: 6.4px;
   text-align: center;
-  margin-left: 43%;
+  margin: 20px auto;
+  display: block;
+  width: fit-content;
   letter-spacing: 0.32px;
 }
 
-.past-issue {
+.MagPastIssues {
   text-align: center;
   margin-bottom: 30px;
   font-size: 2.8rem;
@@ -98,65 +100,69 @@
 
 /* Responsive Design */
 @media (max-width: 1200px) {
-  .issue {
+  .MagIssues {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .title {
+  .MagTitle {
     font-size: 2.5rem;
   }
 }
 
 @media (max-width: 768px) {
-  .issue {
+  .MagIssues {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .title {
+  .MagTitle {
     font-size: 2rem;
   }
 
-  .image-container img {
+  .MagImageContainer img {
     max-width: 100%;
   }
 
-  .button-mag a {
-    margin-left: 0;
-    display: block;
+  .MagButtonWrapper a {
     width: 80%;
     margin: 20px auto;
   }
 }
 
 @media (max-width: 480px) {
-  .issue {
+  .MagIssues {
     grid-template-columns: 1fr;
   }
 
-  .title {
+  .MagTitle {
     font-size: 1.5rem;
     line-height: 1.1;
   }
 
-  .image-container {
+  .MagImageContainer {
     width: 100%;
-  
   }
 
-  .image-container img {
+  .MagImageContainer img {
     width: 100%;
-    max-width: 300px !important; 
-   
-    
+    max-width: 300px !important;
   }
 
-  .button-mag a {
+  .MagButtonWrapper a {
     width: 50%;
     padding: 15px;
     font-size: 1rem;
   }
 
-  .Mag {
+  .MagContainer {
     font-size: 1.5rem;
   }
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
 }

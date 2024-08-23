@@ -61,25 +61,27 @@ const Summit = () => {
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your YouTube video URL
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
-        <br />
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your YouTube video URL
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
+      <iframe
+      width="100%"
+      height="300"
+      src="https://www.youtube.com/embed/AEUS_fLDnb0"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      
+      allowFullScreen
+    ></iframe> 
+    <iframe
+    width="100%"
+    height="300"
+    src="https://www.youtube.com/embed/KGsza03w2X0"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+  
+    
       </motion.div>
 
       {/* Summit Content */}

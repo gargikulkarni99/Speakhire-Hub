@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import foundationalYear from '../../assets/partnerSchools/student1.jpg';
-import Seminar from '../../assets/partnerSchools/Nisha+Mentor+and+Anastasiia+Mentee+%286%29.jpg';
+import Seminared from '../../assets/partnerSchools/Seminars.jpg';
 import Sympsons from '../../assets/partnerSchools/Symposium+Square.png';
 import pathways from '../../assets/partnerSchools/20210729_204729.jpg';
 import school from '../../assets/partnerSchools/school.png';
@@ -17,7 +17,7 @@ const PartnerSchools = () => {
     <div className='partner-school'>
       <div className='partner-container'>
         <h1>Partner Schools & Orgs</h1>
-        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdkvRwl13u1_FmG923fPfpEMAPKa9AMKywC2sctI9AArMvA3A/viewform'>SUBMIT INTEREST FORM</a>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdkvRwl13u1_FmG923fPfpEMAPKa9AMKywC2sctI9AArMvA3A/viewform' target='./'>SUBMIT INTEREST FORM</a>
       </div>
       <h3>Partner with us to help your students succeed.</h3>
       <div className='school'>
@@ -28,10 +28,17 @@ const PartnerSchools = () => {
           <a href='#'>Learn more</a>
         </div>
         <div className='sub-school'>
-          <img src={Seminar} alt='Seminars' />
+          <img src={Seminared} alt='Seminars' />
           <h4>SPEAKHIRE Seminars</h4>
+          <p>Hour-long professional development topics to empower individuals.</p>
           <a href='/seminar'>Learn more</a>
         </div>
+        <div className='sub-school'>
+        <img src={foundationalYear} alt='Seminars' />
+        <h4>Leadership Courses</h4>
+        <p>10-Session courses to support individuals exploring careers.</p>
+        <a href='/'>Learn more</a>
+      </div>
         <div className='sub-school'>
           <img src={pathways} alt='Pathways Days' />
           <h4>Pathways Days</h4>
@@ -127,7 +134,7 @@ const PartnerSchools = () => {
           </div>
         </div>
       </div>
-      <h2>Partner Orgs</h2>
+      
       <div className='org'>
         <motion.img src={IS93} alt='IS 93' whileHover={{ scale: 1.1 }} />
         <motion.img src={Access} alt='Access' whileHover={{ scale: 1.1 }} />

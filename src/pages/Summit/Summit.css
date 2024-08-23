@@ -17,6 +17,21 @@ body {
   overflow-x: hidden;
   text-align: center;
 }
+.video-container {
+  display: flex;
+  flex-direction: column; /* Arrange videos in a column */
+  gap: 20px; /* Adjust the gap size as needed */
+  margin: 20px auto; /* Center the container with margin */
+  max-width: 1200px; /* Optional: Set a max-width for the container */
+}
+
+.video-container iframe {
+  width: 100%; /* Ensure iframes take full width of their container */
+  height: 300px; /* Set a fixed height */
+}
+
+
+
 
 /* Summit Container */
 .summit-container {

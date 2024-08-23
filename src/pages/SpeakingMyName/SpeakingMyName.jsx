@@ -23,7 +23,7 @@ const SpeakingMyName = () => {
                 <h1>#SpeakingMyName</h1>
                 <h3>Share Your Name Story Video Every June 16th</h3>
                 <p>Because Respect Starts With A Name.</p>
-               <div className="button-campaign"> <a href="#">View Campaign Videos</a></div>
+               <div className="button-campaign"> <a href="https://www.youtube.com/playlist?list=PLRMIJO2bZ0fIe95g9GGt8sDYkYkqc2UFc">View Campaign Videos</a></div>
             </motion.div>
 
             <motion.div 
@@ -72,11 +72,13 @@ const SpeakingMyName = () => {
                         Take the power back in your name.
                     </p>
                     <motion.button
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                    >
-                        Watch Campaign Launch Video
-                    </motion.button>
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+    onClick={() => window.open('https://www.youtube.com/watch?v=Ygha98OumCU', '_blank')}
+>
+    Watch Campaign Launch Video
+</motion.button>
+
                 </div>
                 <div className="sub-hetal">
                     <motion.img src={Hetal} alt="Hetal Jani" />
@@ -91,77 +93,93 @@ const SpeakingMyName = () => {
             >
                 
                 <div className="sub-videos">
+
+                
                 <iframe
-                width="100%"
-                height="300"
-                src="https://youtu.be/cwAYscGHEWU?si=lqcU9_W3gOA2kzXu"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-            ></iframe>
-            <h3>HuyenTran Vo</h3>
+                  width="100%"
+                  height="300"
+                  src="https://www.youtube.com/embed/tsdkDf9pDZI"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <h2>HuyenTran Vo</h2>
+                
+                      
+                </div>
+                <div className="sub-videos">
+                
+                <iframe
+                  width="100%"
+                  height="300"
+                  src="https://www.youtube.com/embed/EFxqLlgDqNM"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <h2>Ed Bianchi</h2>
+           
+              
+           
+                </div>
+                <div className="sub-videos">
+                
+                <iframe
+                  width="100%"
+                  height="300"
+                  src="https://www.youtube.com/embed/OPZwcXg0oIU"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <h2>Samuel Russom</h2>
+              
+              
+                </div>
+                <div className="sub-videos">
+              
+                <iframe
+                  src="https://www.youtube.com/embed/KT1Qz52WWUA"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <h2>Alessandra Biaggi</h2>
+            
+              
+          
+                </div>
+                <div className="sub-videos">
+                
+                <iframe
+                  width="100%"
+                  height="300"
+                  src="https://www.youtube.com/embed/gU2OFrZVboY"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <h2>Yodit Haile</h2>
+             
+              
                 </div>
                 <div className="sub-videos">
                 <iframe
-                width="100%"
-                height="300"
-                src="https://youtu.be/cwAYscGHEWU?si=lqcU9_W3gOA2kzXu"
+                src="https://www.youtube.com/embed/lGRCDY2dWX8"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-            ></iframe>
-            <h3>HuyenTran Vo</h3>
+              ></iframe>
+            <h2>Damir Grljevic</h2>
                 </div>
-                <div className="sub-videos">
-                <iframe
-                width="100%"
-                height="300"
-                src="https://youtu.be/cwAYscGHEWU?si=lqcU9_W3gOA2kzXu"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-            ></iframe>
-            <h3>HuyenTran Vo</h3>
-                </div>
-                <div className="sub-videos">
-                <iframe
-                width="100%"
-                height="300"
-                src="https://youtu.be/cwAYscGHEWU?si=lqcU9_W3gOA2kzXu"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-            ></iframe>
-            <h3>HuyenTran Vo</h3>
-                </div>
-                <div className="sub-videos">
-                <iframe
-                width="100%"
-                height="300"
-                src="https://youtu.be/cwAYscGHEWU?si=lqcU9_W3gOA2kzXu"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-            ></iframe>
-            <h3>HuyenTran Vo</h3>
-                </div>
-                <div className="sub-videos">
-                <iframe
-                width="100%"
-                height="300"
-                src="https://youtu.be/cwAYscGHEWU?si=lqcU9_W3gOA2kzXu"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-            ></iframe>
-            <h3>HuyenTran Vo</h3>
-                </div>
+
+
 
 
             </motion.div>
@@ -183,7 +201,7 @@ const SpeakingMyName = () => {
             >
                 <h6>Help us bring awareness to the Campaign</h6>
                 <h2>Become a Campaign Partner</h2>
-                <a href="#">Complete and return this form</a>
+                <a href="https://docs.google.com/document/d/1SiUPXCf_TJnXUVxMSU7QpF3YVFxEdoPmUsVm8fqeiZQ/edit">Complete and return this form</a>
             </motion.div>
 
             <motion.div 

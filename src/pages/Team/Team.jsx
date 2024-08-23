@@ -45,9 +45,9 @@ const Team = () => {
                 <h2>{member.name}</h2>
                 <h3>{member.role}</h3>
                 <p>{member.description}</p>
-                <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin-link">
-                  <FaLinkedin size={34} /> {/* Use the LinkedIn icon */}
-                </a>
+               
+                
+              
               </div>
             </div>
           </motion.div>
@@ -81,9 +81,9 @@ const Team = () => {
                 <h2>{member.name}</h2>
                 <h3>{member.role}</h3>
                 <p>{member.description || 'No description available.'}</p>
-                <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin-link">
-                  <FaLinkedin size={34} /> {/* Use the LinkedIn icon */}
-                </a>
+               
+                 
+              
               </div>
             </div>
           </motion.div>

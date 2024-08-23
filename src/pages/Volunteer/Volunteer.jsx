@@ -28,7 +28,7 @@ const Volunteer = () => {
           <h3>Career Pathways Champion (CPC)</h3>
           <p>Are you looking for an opportunity to empower the next generation of leaders, both culturally similar and cross-cultural? If you have at least 2 years of experience in your career field, you could become a Career Pathways Champion and make a difference.</p>
           <a href='/careers'>Learn more</a>
-          <a href='#' className='apply'>Apply Now</a>
+          <a href='https://speakhire.typeform.com/to/G5fYJlVF?typeform-source=speakhire.org' target='./' className='apply'>Apply Now</a>
         </motion.div>
         <motion.div 
           className='career-pathways'
@@ -38,7 +38,7 @@ const Volunteer = () => {
           <h3>Speaker Series Administrator (SSA)</h3>
           <p>Speaker Series Administrator (SSA) is integral to the operations of our Speaker Series program. The position of SSA ensures all effective communication and coordination of the Speaker Series program.</p>
           <a href='/administrator'>Learn more</a>
-          <a href='#' className='apply'>Apply Now</a>
+          <a href='https://speakhire.typeform.com/to/dHWxc3pF?typeform-source=speakhire.org' target="./"className='apply'>Apply Now</a>
         </motion.div>
       </div>
       <motion.div 

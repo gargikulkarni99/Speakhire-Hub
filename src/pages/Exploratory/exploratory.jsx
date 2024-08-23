@@ -50,15 +50,24 @@ const Exploratory = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          <iframe
-            width="100%"
-            height="300"
-            src="https://youtu.be/cwAYscGHEWU?si=lqcU9_W3gOA2kzXu"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+        <iframe
+        width="100%"
+        height="300"
+        src="https://www.youtube.com/embed/cwAYscGHEWU"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+      
+
+
+
+
+
+
+
+
           <motion.div className="exploratory-image">
             <img src={image} alt="Exploratory" />
           </motion.div>

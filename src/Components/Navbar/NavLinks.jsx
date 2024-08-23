@@ -102,8 +102,9 @@ const NavLinks = ({ isClicked, closeMenu }) => {
                     <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
                 </li>
                 <li>
-                    <button className="donate-button">Donate</button>
+                    <a href='' className="donate-button">Sign Up</a>
                 </li>
+                <li> <a href='' className="donate-button">Donate</a></li>
             </ul>
         </nav>
     );

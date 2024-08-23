@@ -53,7 +53,39 @@
 .myName-container .button-campaign {
     text-align: center;
 }
-
+.video-container {
+    width: 100%; /* Ensure the container fills the width */
+    max-width: 1200px; /* Optional: Limit the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center the title text */
+  }
+  
+  .video-container iframe {
+    width: 100%; /* Make the iframe fill the width of the container */
+    height: 180px; /* Set a smaller height for the iframe */
+    border: none; /* Remove default border */
+  }
+  
+  .video-container h2 {
+    margin-top: 10px; /* Space between the video and the title */
+    color: #08547a; /* Optional: Set title color */
+    font-size: 1.5em; /* Optional: Adjust font size */
+  }
+  
+  /* Responsive Styles for smaller screens */
+  @media (max-width: 768px) {
+    .video-container iframe {
+      height: 150px; /* Adjust height for smaller screens */
+    }
+  
+    .video-container h2 {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+  }
+  
+.sub-videos h2 {
+    color: #08547a;
+}
 /* Quote Styling */
 .quote {
     padding: 20px;

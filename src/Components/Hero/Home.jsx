@@ -23,26 +23,28 @@ const Home = () => {
           transition={{ duration: 1 }}
         >
           <h1>Developing generations of diverse leaders.</h1>
-          <motion.button 
+          <motion.a  href="/partners"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             PARTNER SCHOOLS & ORGS
-          </motion.button>
+          </motion.a>
           <br></br>
-          <motion.button 
+          <br></br>
+          <br></br>
+          <motion.a href='/intern'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             INTERNS (CAREER TRAINEES)
-          </motion.button>
-          <br></br>
-          <motion.button 
+          </motion.a>
+          <br></br><br></br><br></br>
+          <motion.a href='/career'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             CHAMPIONS (CAREER COACHES)
-          </motion.button>
+          </motion.a>
           <br></br>
         </motion.div>
        
@@ -110,24 +112,43 @@ const Home = () => {
     </div>
     <div className="Meeting-container">
     <motion.div
-      className="meeting"
-      initial={{ x: 100, opacity: 0 }} 
-      animate={{ x: 0, opacity: 1 }} 
-      transition={{ duration: 0.5 }} 
+        className="meeting-content"
+        initial={{ x: -100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5 }}
     >
-      <img src={Meeting} alt="Empowerment" />
+        <h2>Where today’s workforce develop tomorrow’s workforce leaders</h2>
+        <p>We support career awareness, exploration preparation and training of those looking to pursue a career.</p>
     </motion.div>
     <motion.div
-      className="meeting-content"
-      initial={{ x: -100, opacity: 0 }} 
-      animate={{ x: 0, opacity: 1 }} 
-      transition={{ duration: 0.5 }} 
+        className="meeting"
+        initial={{ x: 100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5 }}
     >
-      <h2>Where today’s workforce develop tomorrow’s workforce leaders</h2>
-      <p>We support career awareness, exploration preparation and training of those looking to pursue a career.</p>
+        <img src={Meeting} alt="Empowerment" />
     </motion.div>
-    
-  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <CardsList/>
 

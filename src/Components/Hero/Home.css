@@ -57,7 +57,6 @@
     color: #fff;
     width: 100%; 
     border-radius: 8px;
-   
     text-align: center;
 }
 
@@ -67,8 +66,45 @@
     margin: 0 auto 20px;
     font-size: 30px;
 }
+.Meeting-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Stack vertically on all screens */
+  position: relative; /* Make the container a positioning context */
+  padding: 50px 20px;
+  background-color: #08547a;
+  width: 100%;
+}
 
+.meeting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; /* Ensure the image is below the content */
+}
 
+.meeting img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  object-fit: cover; /* Ensure the image covers its container */
+}
+
+.meeting-content {
+  position: relative; /* Make sure it’s positioned relative to the container */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 70px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto; /* Center content horizontally */
+  z-index: 2; /* Ensure the content is above the image */
+  position: relative;
+  top: -50px; /* Adjust this value to control the overlap */
+}
 @media screen and (max-width: 1024px) {
     .Container {
         padding: 10px;
@@ -143,6 +179,7 @@
         font-size: 1rem;
     }
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -150,80 +187,78 @@
     text-align: center; 
     color: #007b98;
     padding: 40px 0px;
-   
-  }
-  
-  .info-column {
+}
+
+.info-column {
     padding: 20px; 
     font-size: 16px;
-  }
-  .Counter {
+}
+
+.Counter {
     font-size: 40px;
-  }
-  
-  /* Responsive styles */
-  @media (max-width: 1200px) {
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
     .grid-container {
       grid-template-columns: repeat(3, 1fr); 
     }
-  }
-  
-  @media (max-width: 900px) {
+}
+
+@media (max-width: 900px) {
     .grid-container {
       grid-template-columns: repeat(2, 1fr); 
     }
-  }
-  
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     .grid-container {
       grid-template-columns: 1fr; 
     }
-  }
-  .Meeting-container {
+}
+
+.Meeting-container {
     display: grid; 
-    grid-template-columns: 30% 70%; 
+    grid-template-columns: 30% 70%; /* Image on the left, content on the right */
     align-items: center; 
     padding: 50px 20px; 
     background-color: #08547a;
     position: relative; 
     width: 100%;
-  }
-  
-  .meeting {
+}
+
+.meeting {
     grid-column: 2; 
     position: relative; 
     display: flex; 
     justify-content: center; 
-  }
-  
-  .meeting img {
+}
+
+.meeting img {
     width: 100%;
     height: auto;
     border-radius: 50px; 
-  }
-  
-  .meeting-content {
+}
+
+.meeting-content {
     background-color: rgba(0, 0, 0, 0.5);
     color: white; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
     border-radius: 10px; 
     padding: 70px; 
-    position: absolute; 
-    top: 30%; 
-    left: 5%;
-    transform: translateY(-50%); 
+    position: relative; 
     z-index: 4; 
     text-align: center; 
     width: 80%; 
     max-width: 600px;
-  }
-  
-  @media (max-width: 1024px) {
+}
+
+@media (max-width: 1024px) {
     .Meeting-container {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; /* Stack vertically on smaller screens */
       padding: 20px; 
     }
-  
+
     .meeting-content {
       position: relative;
       margin-bottom: 140px; 
@@ -231,48 +266,46 @@
       left: 0; 
       transform: none;
     }
-  
+
     .meeting {
       grid-column: 1;
     }
-  
+
     .meeting img {
       max-width: 100%; 
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .meeting-content {
       padding: 30px 10px; 
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .meeting-content {
       padding: 20px 10px; 
     }
-  }
-  
+}
 
-
-  .section-container {
+.section-container {
     padding: 20px;
     text-align: start;
-  }
-  
-  .section-title {
+}
+
+.section-title {
     font-size: 40px;
     margin: 40px;
     color: #007b98; 
-  }
-  
-  .cards-container {
+}
+
+.cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-  }
-  
-  .card {
+}
+
+.card {
     background-color: rgba(255, 255, 255, 0.5); 
     color: black; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -282,47 +315,48 @@
     overflow: hidden; 
     position: relative;
     transition: background-color 0.5s ease;
-  }
-  
-  .image-container {
+}
+
+.image-container {
     overflow: hidden;
     border-radius: 10px;
-  }
-  
-  .card-image {
+}
+
+.card-image {
     width: 100%;
     height: 350px;
     border-radius: 10px;
     margin-bottom: 10px;
     transition: transform 0.5s ease;
-  }
-  
-  .card h3 {
+}
+
+.card h3 {
     margin: 10px 0;
-    font-size: 30px;
+    font-size: 1.5rem; /* Adjusted for mobile view */
     color: #007b98;
-  }
-  
-  .card-paragraph {
+}
+
+.card-paragraph {
     opacity: 0;
     max-height: 0; 
     overflow: hidden; 
     transition: max-height 0.5s ease, opacity 0.5s ease;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     background-color: rgba(255, 255, 255, 0.7); 
-  }
-  
-  .card:hover .card-image {
+}
+
+.card:hover .card-image {
     transform: scale(1.1); 
-  }
-  
-  .card:hover .card-paragraph {
+}
+
+.card:hover .card-paragraph {
     opacity: 1;
     max-height: 200px; 
-  }
-  .button-class {
+}
+
+.button-class {
     background-color: #fcfc79;
     text-align: center;
     padding: 21px 35px;
@@ -331,385 +365,22 @@
     font-size: 17.656px;
     border-radius: 6.4px;
     text-decoration: none;
-    
     width: max-content;
-    margin-left: 43% !important;
-    letter-spacing: 0.35312px;
-    
-   }
-   .button-class a {
-    text-decoration: none;
-    color: black;
-   }
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .cards-container {
-      grid-template-columns: 1fr; 
-    }
-  
-    .card {
-      padding: 15px;
-    }
-  
-    .card h3 {
-      font-size: 1.2em;
-    }
-  
-    .card-paragraph {
-      font-size: 0.9em;
-      max-height: 150px; 
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .section-title {
-      font-size: 1.5em;
-    }
-  
-    .card {
-      padding: 10px;
-    }
-  
-    .card h3 {
-      font-size: 1em;
-    }
-  
-    .card-paragraph {
-      font-size: 0.8em;
-      max-height: 100px;
-    }
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+.button-class:hover {
+    color: #444;
+    background-color: #f1f1f1;
+}
+
+.content button {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.subContent h2 {
+    font-size: 1.75rem; 
+    margin-bottom: 10px;
+}

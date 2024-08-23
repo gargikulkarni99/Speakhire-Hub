@@ -89,7 +89,7 @@ const Symposiums = () => {
           >
             <p>It’s so important to find points in the day for students to share these pieces of their identities...</p>
             <h5>-Educator</h5>
-            <a href='#'>Complete Partner Interest Form</a>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSdkvRwl13u1_FmG923fPfpEMAPKa9AMKywC2sctI9AArMvA3A/viewform'>Complete Partner Interest Form</a>
           </motion.div>
           <motion.div 
             className='sub-educator'

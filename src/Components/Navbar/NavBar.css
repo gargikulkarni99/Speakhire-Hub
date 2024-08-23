@@ -44,8 +44,9 @@ nav {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #fff;
+    background: #f8f8f8; /* Off-white background color */
     z-index: 1;
+    padding: 5px; /* Reduced padding around the dropdown container */
 }
 
 .NavLinks ul li:hover .dropdown {
@@ -56,10 +57,12 @@ nav {
     display: block;
     font-size: 14px !important;
     font-weight: 300; 
+    padding: 5px 10px; /* Smaller padding on the dropdown items */
+    background: #f8f8f8; /* Off-white background color for dropdown items */
 }
 
 .dropdown li a:hover {
-    background: #f0f0f0;
+    background: #e6e6e6; /* Slightly darker shade on hover */
 }
 
 .logo {
@@ -81,10 +84,11 @@ nav {
     font-weight: 400; 
     align-self: center; 
     border-radius: 5px;
+    margin-left: 10px;
 }
 
 .donate-button:hover {
-    background-color: #cc0000;
+    background-color: rgb(234, 234, 177);
 }
 
 .MobileNavigation {

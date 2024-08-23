@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import magData from '/src/Constant/Mag.json'; // Adjust the import path as necessary
-import "./Mag.css"
+import "./Mag.css";
+
 const Mag = () => {
   const latestIssue = magData.Mag.find(issue => issue.id === 1);
   const otherIssues = magData.Mag.filter(issue => issue.id !== 1);
@@ -9,7 +10,7 @@ const Mag = () => {
   return (
     <div>
       <motion.div
-        className='Mag'
+        className='MagContainer'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -17,19 +18,19 @@ const Mag = () => {
         SPEAKHIRE Mag
       </motion.div>
 
-      <h1 className='title'>Latest Issue</h1>
+      <h1 className='MagTitle'>Latest Issue</h1>
 
       <motion.div
-        className='latest-issue'
+        className='MagLatestIssue'
         initial={{ x: '-100vw' }}
         animate={{ x: 0 }}
         transition={{ type: 'spring', stiffness: 120 }}
       >
-        <div className='image-container'>
+        <div className='MagImageContainer'>
           <a href={`/issue/${latestIssue.id}`}>
             <img src={latestIssue.image} alt={latestIssue.issue} />
             <motion.div
-              className='issue-text'
+              className='MagIssueText'
               initial={{ y: '100%', opacity: 0 }}
               whileHover={{ y: '0%', opacity: 1 }}
               transition={{ duration: 0.5 }}
@@ -39,23 +40,22 @@ const Mag = () => {
           </a>
         </div>
       </motion.div>
-      <h1 className='past-issue'>Read Our Past Issues </h1>
+      <h1 className='MagPastIssues'>Read Our Past Issues</h1>
       <hr></hr>
 
-      <div className='issue'>
-     
+      <div className='MagIssues'>
         {otherIssues.map((issue) => (
           <motion.div
             key={issue.id}
-            className='sub-issue'
+            className='MagSubIssue'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           > 
-            <div className='image-container'>
+            <div className='MagImageContainer'>
               <a href={`/issue/${issue.id}`}>
                 <img src={issue.image} alt={issue.issue} />
                 <motion.div
-                  className='issue-text'
+                  className='MagIssueText'
                   initial={{ y: '100%', opacity: 0 }}
                   whileHover={{ y: '0%', opacity: 1 }}
                   transition={{ duration: 0.5 }}
@@ -67,9 +67,9 @@ const Mag = () => {
           </motion.div>
         ))}
       </div>
-       <hr></hr>
+      <hr></hr>
       <motion.div
-        className='button-mag'
+        className='MagButtonWrapper'
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >

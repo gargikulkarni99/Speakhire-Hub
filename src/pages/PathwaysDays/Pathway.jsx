@@ -28,7 +28,7 @@ const Pathway = () => {
       <div className='pathways-container'>
         <motion.div className='header-pathways'>
           <h1>Pathways Days</h1>
-          <a href='#'>Partner Interest Form</a>
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLSdkvRwl13u1_FmG923fPfpEMAPKa9AMKywC2sctI9AArMvA3A/viewform'>Partner Interest Form</a>
         </motion.div>
         <motion.div
           className='scroller'
@@ -71,12 +71,12 @@ const Pathway = () => {
         <div className='sub-devin'>
         <p>I wanted to make my own path with a suitable career that would make my mom proud. SPEAKHIRE helped me understand and learn what I wanted to do in a career, and the professionals gave wonderful insight on the process and even advice that I would use later down the line.</p>
         <h1>-Devin</h1>
-        <div className='partner'><a href='#'>Complete Partner Interest Form</a></div>
+        <div className='partner'><a href='https://docs.google.com/forms/d/e/1FAIpQLSdkvRwl13u1_FmG923fPfpEMAPKa9AMKywC2sctI9AArMvA3A/viewform'>Complete Partner Interest Form</a></div>
         </div>
         </div>
         <motion.div className='Empower' variants={itemVariants} transition={{ delay: 0.4 }}>
           <h5>Support Prepare Empower All Kind</h5>
-          <p>Are you a professional looking to participate in our SPEAKHIRE Pathways Days? Visit our <a href='#'className='champion-page' >Champions page</a> and get involved!</p>
+          <p>Are you a professional looking to participate in our SPEAKHIRE Pathways Days? Visit our <a href='/champion'className='champion-page' >Champions page</a> and get involved!</p>
           <a href='#'>Become a Champion Today</a>
         </motion.div>
       </div>

@@ -70,6 +70,7 @@
     border-radius: 6.4px;
     text-decoration: none;
     color: black;
+  
    
    }
  
@@ -81,7 +82,7 @@
  .button-class {
   margin: 20px 0;
   text-align: center;
-  margin-right: 80px;
+ margin-left: 40% !important;
  }
   /* Responsive adjustments */
   @media (max-width: 1024px) {
