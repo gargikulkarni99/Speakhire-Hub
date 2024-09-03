@@ -89,11 +89,14 @@
   }
   
   .center-button {
+    display: inline-block;
     padding: 5px 15px; /* Adjusted padding for a better look */
     font-size: 1rem;
     cursor: pointer;
     background-color: rgb(30, 109, 161);
     color: white; /* Button text color */
+    text-align: center;
+    text-decoration: none;
     border: none;
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease; /* Smooth hover transition */
@@ -102,6 +105,15 @@
   .center-button:hover {
     background-color: rgb(22, 82, 122); /* Darker shade on hover */
   }
+  
+  .center-button:active {
+    background-color: rgb(18, 68, 98); /* Even darker shade on click */
+  }
+  
+  .center-button:focus {
+    outline: none;
+  }
+  
 
   .blue-section {
     background-color: rgb(30, 109, 161); /* Blue background */
@@ -131,6 +143,7 @@
   }
   
   .hover-button {
+    display: inline-block;
     padding: 10px 20px;
     font-size: 1rem;
     background-color: white;
@@ -139,12 +152,15 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline from link */
+    text-align: center; /* Center text */
   }
   
   .hover-button:hover {
     background-color: rgb(22, 82, 122); /* Darker blue on hover */
     color: white; /* Text color changes to white on hover */
   }
+  
   
   .split-section {
     display: flex;

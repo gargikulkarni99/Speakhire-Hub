@@ -16,7 +16,9 @@ const Theory = () => {
           <p className="content-paragraph-main">
           Career guidance and support through innovative social capital and network development expands the circle of opportunities for individuals and forms the critical connections they need to make realizing those opportunities tangible.
           </p>
-          <button className="learn-more-button">View Our One-Pager</button>
+          <a href="https://drive.google.com/file/d/10_pxvjljLwzkBOAR7eySUbCjOs0FK8E2/view" className="learn-more-button">
+          View Our One-Pager
+    </a>
         </div>
         <div className="content-right">
           <div className="video-container">
@@ -89,7 +91,8 @@ const Theory = () => {
         <li>possess more self-agency</li>
         <li>help uplift communities</li>
       </ul>
-      <button className="view-activities-button">View Our Activities</button>
+      <a href="/activities" className="view-activities-button">View Our Activities</a>
+      
       <div className="image-container">
         <img src={Youth} alt="Group of students" />
       </div>
@@ -106,7 +109,8 @@ More than 80% of internships and first jobs are landed through networks, yet onl
 
 SUPPORT PREPARE EMPOWER ALL KIND...towards economic opportunity through the connections we make, the relationships we build, and the conversations we help initiate, so our future leaders can get greater opportunities like applying to the right colleges, getting into internships, and the highest paid first job that leads to career satisfaction.  We want our future leaders to get HIRED by having us SPEAK higher for them and propel them towards successful career pathways.
         </p>
-        <button className="name-button">View Our Mission</button>
+        <a href="/mission" className="name-button">View Our Mission</a>
+        
         <p className="name-cta">Join us in <span>Developing Tomorrow's Leaders and SPEAKHIRE!</span></p>
       </div>
 

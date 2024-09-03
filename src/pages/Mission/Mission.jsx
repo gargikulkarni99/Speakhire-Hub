@@ -39,13 +39,17 @@ const Mission = () => {
             <p>by creating and inspiring a network of professionals to facilitate dialogue with key players who guide individuals</p>
           </div>
         </div>
-        <button className="center-button">View Our One-Pager</button>
+        <a href="https://drive.google.com/file/d/10_pxvjljLwzkBOAR7eySUbCjOs0FK8E2/view" className="center-button">
+      View Our One-Pager
+    </a>
       </section>
       <section className="blue-section">
         <div className="content-container">
           <h2 className="big-header-main">View Our Theory of Change</h2>
           <p className="paragraph">Our theory of change is increases in the quantity of quality relationships fostered guide individuals toward success.</p>
-          <button className="hover-button">Learn more</button>
+          <a href="/theory" className="hover-button">
+      Learn more
+    </a>
         </div>
       </section>
       <section className="split-section">

@@ -45,22 +45,24 @@
 }
 
 .learn-more-button {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    font-size: 18px;
-    font-weight: normal;
-    color: white;
-    background-color:#1b6d8b;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-align: center;
+  display: block;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  background-color:#1b6d8b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  width: 300px;
+  margin-left: 300px;
 }
 
 .learn-more-button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .video-container {

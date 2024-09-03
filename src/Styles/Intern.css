@@ -20,18 +20,22 @@
 }
 
 .apply-btn {
-  background-color: rgb(214, 227, 95);
-  color: #080808;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.apply-btn:hover {
-  background-color: #686876;
-  color: white;
-}
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: rgb(214, 227, 95); /* Updated background color */
+	color: #080808; /* Updated text color */
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 4px;
+	border: none; /* Removed border */
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .apply-btn:hover {
+	background-color: #686876; /* Updated hover background color */
+	color: white; /* Updated hover text color */
+  }
 .intern-content {
 	margin: 2rem 0;
 	padding: 1rem;
@@ -106,11 +110,11 @@
   }
   
   .learn-more-section {
-    margin-top:0cqmax;
+    margin-top: 0cqmax; /* Uses your provided margin */
     display: inline;
-    justify-content:first baseline; /* Aligns items to the start and end of the section */
-    align-items: top; /* Vertically centers items within the section */
-    text-align: center; /* Centers text horizontally if it is within the section */
+    justify-content: first baseline; /* Aligns items to the start and end of the section */
+    align-items: top; /* Vertically aligns items at the top of the section */
+    text-align: center; /* Centers text horizontally within the section */
 }
 
 .learn-more-btn {
@@ -119,9 +123,10 @@
     color: white;
     border: none;
     border-radius: 5px;
+    text-decoration: none; /* Removes underline from link */
     cursor: pointer;
-    /* Optional: Add transition for button color changes */
-    transition: background-color 0.3s ease;
+    display: inline-block; /* Ensures it behaves like a button */
+    transition: background-color 0.3s ease; /* Adds smooth transition for hover effect */
 }
 
 /* Ensure button hover state is defined */
@@ -171,12 +176,16 @@
   }
   
   .learn-more-btn {
+	display: inline-block;
+	padding: 10px 20px;
 	background-color: #ffffff;
 	color: #003366;
-	border: none;
-	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
 	font-size: 1em;
+	text-align: center;
 	cursor: pointer;
+	border: none;
 	transition: background-color 0.3s, color 0.3s;
   }
   
@@ -184,6 +193,7 @@
 	background-color: #003366;
 	color: #ffffff;
   }
+  
   
   .learn-more-img {
 	max-width: 60%;
@@ -219,7 +229,7 @@
   }
   
 
-.centered-learn-more-section {
+  .centered-learn-more-section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -234,13 +244,16 @@
 	background-color: rgb(235, 253, 78); /* Primary button color */
 	border: none;
 	border-radius: 5px;
+	text-decoration: none;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
   }
   
   .learn-more-btn:hover {
 	background-color: #0056b3; /* Darker shade for hover effect */
+	color: white; /* Ensure text remains visible on darker background */
   }
+  
   
   /* Existing Styles */
 .header-right .social-media a {

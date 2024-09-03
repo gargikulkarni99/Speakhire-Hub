@@ -237,15 +237,15 @@
     margin-top: 40px;
 }
 
-.image-column {
+.image-column-champ {
     flex: 1;
     margin: 0 10px;
     text-align: center;
 }
 
-.image-column img {
-    width: 100px; /* Fixed width for uniform size */
-    height: 100px; /* Fixed height for uniform size */
+.image-column-champ img {
+    width: 50px; /* Fixed width for uniform size */
+    height: 50px; /* Fixed height for uniform size */
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     display: block; /* Ensures the image is displayed as a block element */
     margin: 0 auto; /* Center the image horizontally */
@@ -253,7 +253,7 @@
 
 .image-btn {
     margin-top: 20px; /* Reduced margin-top for a smaller gap */
-    padding: 8px 16px; /* Adjust padding for a smaller button */
+    padding: 8px 10px; /* Adjust padding for a smaller button */
     background-color:#f5f85e;
     color:#080808;
     border: none;
@@ -263,6 +263,8 @@
     display: block; /* Ensures the button is displayed as a block element */
     margin-left: auto; /* Center the button horizontally */
     margin-right: auto; /* Center the button horizontally */
+    width:120px;
+    height:60px;
 }
 
 .image-btn:hover {

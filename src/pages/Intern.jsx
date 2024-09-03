@@ -15,8 +15,10 @@ const Intern = () => {
           <h2>Interns</h2>
         </div>
         <div className="blue-section-right">
-          <button className="apply-btn">APPLY FOR FOUNDATIONAL YEAR</button>
-        </div>
+      <a href="https://speakhire.typeform.com/to/farsnjno?typeform-source=speakhire.org" className="apply-btn">
+        APPLY FOR FOUNDATIONAL YEAR
+      </a>
+    </div>
       </section>
       <section className="intern-content">
         <p className="intern-intro">
@@ -43,13 +45,13 @@ const Intern = () => {
                 <li>Immigrants, first-generation Americans, or in need of a coach</li>
                 <li>1 day/week (45 min advisory/lunch/elective period)</li>
                 <li>November - June</li>
-                <li><a href="link/to/application">Submit an application</a></li>
+                <li><a href="https://speakhire.typeform.com/to/farsnjno?typeform-source=speakmentorship.typeform.com">Submit an application</a></li>
                 <li>Scholarships available</li>
               </ul>
             </div>
             <div className="learn-more-section">
-              <button className="learn-more-btn">Learn more</button>
-            </div>
+      <a href="/foundationalyear" className="learn-more-btn">Learn more</a>
+    </div>
           </div>
           </div>
           </div>
@@ -66,7 +68,9 @@ const Intern = () => {
             </ul>
           </div>
           <div className="dark-blue-section-right">
-            <button className="learn-more-btn">Learn More</button>
+          <a href="/exploratory" className="learn-more-btn">
+      Learn More
+    </a>
             <img src={Students} alt="Learn More" className="learn-more-img" />
           </div>
         </section>
@@ -89,8 +93,8 @@ const Intern = () => {
       </section>
       {/* New Centered Learn More Button Section */}
       <section className="centered-learn-more-section">
-        <button className="learn-more-btn">Learn More</button>
-      </section>
+      <a href="/leadership" className="learn-more-btn">Learn More</a>
+    </section>
     </>
   );
 }

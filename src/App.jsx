@@ -22,6 +22,14 @@ import Activities from './pages/Activities/Activities';
 import Leadership from './pages/Leadership/Leadership';
 import Foundational from './pages/Foundational/Foundational';
 import Careers from './pages/Careers/Careers';
+import Relations from './pages/RelationsAssociate/Relations';
+import Experience from './pages/ExperienceManager/Experience';
+import Program from './pages/Program/Program';
+import Lead from './pages/Lead/Lead';
+import Facilitator from './pages/Facilitator/Facilitator';
+import Speaker from './pages/Speaker/Speaker';
+import Director from './pages/Director/Director';
+import Operation from './pages/Operation/Operation';
 
 
 const App = () => {
@@ -48,6 +56,14 @@ const App = () => {
         <Route path='/leadership' element={<Leadership />} />
         <Route path='/foundationalyear' element={<Foundational />} />
         <Route path='/careers' element={<Careers />} />
+        <Route path='/relations' element={<Relations />} />
+        <Route path='/experience' element={<Experience />} />
+        <Route path='/program' element={<Program />} />
+        <Route path='/lead' element={<Lead />} />
+        <Route path='/facilitator' element={<Facilitator />} />
+        <Route path='/speaker' element={<Speaker />} />
+        <Route path='/director' element={<Director />} />
+        <Route path='/operation' element={<Operation />} />
       </Routes>
       <Footer />
     </Router>

@@ -32,7 +32,8 @@ const Champions = () => {
 					<h2>Career Pathways Champions (CPCs)</h2>
 				</div>
 				<div className="blue-section-right">
-					<button className="apply-btn">SIGN UP NOW</button>
+					<a href="/https://app.speakhire.org/login" className="apply-btn">SIGN UP NOW</a>
+					
         		</div>
       		</section>
 			  <section className="paragraph-section">
@@ -64,11 +65,11 @@ const Champions = () => {
 			<section className="button-section">
 				<h3>Get involved with the programs below:</h3>
 				<div className="button-row">
-					<button className="involvement-btn">SPEAKHIRE SERIES</button>
-					<button className="involvement-btn">SKILLS SEMINARS</button>
-					<button className="involvement-btn">FOUNDATIONAL YEAR</button>
-					<button className="involvement-btn">EXPLORATORY YEARS</button>
-					<button className="involvement-btn">PATHWAYS DAYS</button>
+					<a href="/series" className="involvement-btn">SPEAKHIRE SERIES</a>
+					<a href="/seminar" className="involvement-btn">SKILLS SEMINARS</a>
+					<a href="/foundationalyear" className="involvement-btn">FOUNDATIONAL YEAR</a>
+					<a href="/exploratory" className="involvement-btn">EXPLORATORY YEARS</a>
+					<a href="/pathways" className="involvement-btn">PATHWAYS DAYS</a>
 				</div>
 			</section>
 			<section className="cpc-section b-background">
@@ -91,17 +92,18 @@ const Champions = () => {
         			</p>
     			 </div>
 				 <div className="image-row">
-					<div className="image-column">
+					<div className="image-column-champ">
 						<img src={Donate} alt="Champion Activity 1" />
-						<button className="image-btn">DONATE</button>
+						
+						<a href="/donate" className="image-btn">DONATE</a>
         			</div>
-					<div className="image-column">
+					<div className="image-column-champ">
 						<img src={Match} alt="Champion Activity 2" />
-						<button className="image-btn">COMPANY MATCHING</button>
+						<a href="https://www.charitynavigator.org/donor-basics/giving-101/employee-match-programs/?bay=content.view&cpid=1799" className="image-btn">COMPANY MATCHING</a>
         			</div>
-					<div className="image-column">
+					<div className="image-column-champ">
 						<img src={Sponsor} alt="Champion Activity 3" />
-						<button className="image-btn">SPONSOR</button>
+						<a href="/fill" className="image-btn">SPONSOR</a>
         			</div>
     			</div>
 			</section>

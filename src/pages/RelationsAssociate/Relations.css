@@ -1,0 +1,101 @@
+.Relations-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 95px;
+  }
+  
+  .Relations-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #008CBA;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 70px;
+  }
+  
+  .Relations-title {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    color: white;
+  }
+  
+  .apply-now-button {
+    background-color: rgb(230, 230, 102);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .Relations-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Relations-description,
+  .qualifications {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color:black;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: black;
+  }
+  
+  .job-description-link {
+    background-color: rgb(230, 230, 102);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
